@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on kity</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on kity</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Mar 2025 02:11:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>did it work??</title>
+      <link>http://localhost:1313/posts/did-it-work/</link>
+      <pubDate>Sun, 23 Mar 2025 02:11:20 +0000</pubDate>
+      <guid>http://localhost:1313/posts/did-it-work/</guid>
+      <description>&lt;h4 id=&#34;this-is-test-pls-ignore&#34;&gt;this is test, pls ignore&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;it worked!!!!!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

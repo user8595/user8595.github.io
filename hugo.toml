@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'kity'
+theme = 'paper'
+
+# change image cache folder location
+[caches]
+  [caches.images]
+    [dir] = ':cacheDir/images'
+
+[params]
+twitter = 'https://x.com/takoislongboi'
+github = 'https://github.com/user8595'
+
+avatar = 'https://i.postimg.cc/xdK7tsKy/Foto-Profil.png'
+name = 'user859'
+bio = 'a digital journal.'
