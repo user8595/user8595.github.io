@@ -6,4 +6,3 @@ it's still in a very barebones statte for now on, and i might probably modify th
 
 for now on at least it's already deployed as this is the first time i try to use something like this.
 
-TODO: fix favicon not showing properly
