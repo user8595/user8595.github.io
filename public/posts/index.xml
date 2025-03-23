@@ -6,8 +6,15 @@
     <description>Recent content in Posts on blogpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Mar 2025 02:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 09:54:46 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>new at git</title>
+      <link>/posts/new-at-git/</link>
+      <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
+      <guid>/posts/new-at-git/</guid>
+      <description>&lt;p&gt;being a completely new and completely blind in experience at using something i thought wss so complicated, apparently it was easy if you have fundament english skills, especially if you&amp;rsquo;re a non-english speaker.&lt;/p&gt;&#xA;&lt;p&gt;also maybe in this post there maybe some grammatical(?) errors in the paragraph so please understood as i am not an native english speaker.&lt;/p&gt;&#xA;&lt;p&gt;(the last few words are google translated)&lt;/p&gt;&#xA;&lt;p&gt;(also this is false information. git is hard, especially for a beginner like me for now)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>did it work??</title>
       <link>/posts/did-it-work/</link>
