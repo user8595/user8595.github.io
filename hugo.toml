@@ -8,8 +8,8 @@ theme = 'paper'
     dir = ':cacheDir/images'
 
 [params]
-twitter = 'https://x.com/takoislongboi'
-github = 'https://github.com/user8595'
+twitter = 'takoislongboi'
+github = 'user8595'
 avatar = 'https://i.postimg.cc/xdK7tsKy/Foto-Profil.png'
 name = 'user859'
 bio = 'a digital journal.'
