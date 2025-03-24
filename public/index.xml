@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogpage</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on blogpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Mar 2025 09:54:46 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Mar 2025 16:42:44 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>solution to lsp not working in termux</title>
+      <link>/posts/termux-lsp-solution/</link>
+      <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
+      <guid>/posts/termux-lsp-solution/</guid>
+      <description>&lt;p&gt;while i was configure nvim via termux, specifically it&amp;rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&amp;rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&amp;rsquo;s side.&lt;/p&gt;&#xA;&lt;p&gt;and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (&lt;a href=&#34;https://github.com/termux/termux-packages/issues/19342&#34;&gt;link&lt;/a&gt;) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) &lt;a href=&#34;https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>being new at git</title>
-      <link>//localhost:1313/posts/being-new-at-git/</link>
+      <link>/posts/being-new-at-git/</link>
       <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>//localhost:1313/posts/being-new-at-git/</guid>
+      <guid>/posts/being-new-at-git/</guid>
       <description>&lt;p&gt;being completely new and absolutely blind in experience at using something i thought was so complicated, apparently it is easy to use if you have fundamental english skills and knowledge in obscure words, especially if you&amp;rsquo;re a non-english speaker.&lt;/p&gt;&#xA;&lt;p&gt;also maybe in this post there maybe some grammatical(?) errors in the paragraph so please understood as i am not an native english speaker.&lt;/p&gt;&#xA;&lt;p&gt;(the last few words are google translated)&lt;/p&gt;</description>
     </item>
     <item>
       <title>did it work??</title>
-      <link>//localhost:1313/posts/did-it-work/</link>
+      <link>/posts/did-it-work/</link>
       <pubDate>Sun, 23 Mar 2025 02:11:20 +0000</pubDate>
-      <guid>//localhost:1313/posts/did-it-work/</guid>
+      <guid>/posts/did-it-work/</guid>
       <description>&lt;h4 id=&#34;this-is-test-pls-ignore&#34;&gt;this is test, pls ignore&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;it worked!!!!!&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,210 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>solution to lsp not working in termux-blogpage</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.
+and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link" />
+  <meta name="author" content="user859" /><link rel="preload stylesheet" as="style" href="/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="/theme.png" />
+
+  <link rel="preload" as="image" href="https://i.postimg.cc/xdK7tsKy/Foto-Profil.png" />
+
+  <link rel="preload" as="image" href="/twitter.svg" /><link rel="preload" as="image" href="/github.svg" />
+
+  <script
+    defer
+    src="/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="solution to lsp not working in termux">
+  <meta itemprop="description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
+and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+  <meta itemprop="datePublished" content="2025-03-24T16:42:44+00:00">
+  <meta itemprop="dateModified" content="2025-03-24T16:42:44+00:00">
+  <meta itemprop="wordCount" content="202"><meta property="og:url" content="/posts/termux-lsp-solution/">
+  <meta property="og:site_name" content="blogpage">
+  <meta property="og:title" content="solution to lsp not working in termux">
+  <meta property="og:description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
+and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-24T16:42:44+00:00">
+    <meta property="article:modified_time" content="2025-03-24T16:42:44+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="solution to lsp not working in termux">
+  <meta name="twitter:description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
+and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+
+  <link rel="canonical" href="/posts/termux-lsp-solution/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="/"
+      >blogpage</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/takoislongboi"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/user8595"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">solution to lsp not working in termux</h1><div class="text-xs antialiased opacity-60"><time>Mar 24, 2025</time></div></header>
+
+  <section><p>while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.</p>
+<p>and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (<a href="https://github.com/termux/termux-packages/issues/19342">link</a>) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) <a href="https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748">link</a></p>
+<p>if you want just the .zip file, here&rsquo;s the link for it:</p>
+<p><a href="https://github.com/termux/termux-exec/files/13802391/termux-exec.zip"><strong>link</strong></a></p>
+<h3 id="how-to-install">how to install?</h3>
+<p>unpack the .zip file, then copy the termux-exec with the right architecture as your phone&rsquo;s to termux&rsquo;s home directory (not neccesarily)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp termux-exec_2.0.0_aarch64.deb ~ <span style="color:#75715e"># change &#39;aarch64&#39; into yout phone&#39;s architecture</span>
+</span></span></code></pre></div><p>then, run dpkg to install the package:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>dpkg -i termux-exec_2.0.0_aarch64.deb
+</span></span></code></pre></div><p>now run any text editor, and your lsp servers should work at this point.</p>
+<p>i dont know what the package fixes, but at least this solution works.</p>
+<p>this bug seems to only happens to phones with android 14 and above apparently.</p>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="/posts/being-new-at-git/"
+      ><span>being new at git</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025<a class="link" href="/">blogpage</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

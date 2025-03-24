@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/posts/being-new-at-git/</loc>
+    <loc>/</loc>
+    <lastmod>2025-03-24T16:42:44+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-03-24T16:42:44+00:00</lastmod>
+  </url><url>
+    <loc>/posts/termux-lsp-solution/</loc>
+    <lastmod>2025-03-24T16:42:44+00:00</lastmod>
+  </url><url>
+    <loc>/posts/being-new-at-git/</loc>
     <lastmod>2025-03-23T09:54:46+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-03-23T09:54:46+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-03-23T09:54:46+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/did-it-work/</loc>
+    <loc>/posts/did-it-work/</loc>
     <lastmod>2025-03-23T02:11:20+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
