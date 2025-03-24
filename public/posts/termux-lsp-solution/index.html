@@ -20,7 +20,7 @@
   />
 
   
-  <title>solution to lsp not working in termux-blogpage</title>
+  <title>a solution to lsps not working in termux-blogpage</title>
 
   
   <meta name="theme-color" />
@@ -53,14 +53,14 @@ and so i did a quick google search about the problem and quickly found a closed 
   />
 
   <meta name="generator" content="Hugo 0.145.0">
-  <meta itemprop="name" content="solution to lsp not working in termux">
+  <meta itemprop="name" content="a solution to lsps not working in termux">
   <meta itemprop="description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
 and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
   <meta itemprop="datePublished" content="2025-03-24T16:42:44+00:00">
   <meta itemprop="dateModified" content="2025-03-24T16:42:44+00:00">
   <meta itemprop="wordCount" content="202"><meta property="og:url" content="/posts/termux-lsp-solution/">
   <meta property="og:site_name" content="blogpage">
-  <meta property="og:title" content="solution to lsp not working in termux">
+  <meta property="og:title" content="a solution to lsps not working in termux">
   <meta property="og:description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
 and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
   <meta property="og:locale" content="en_us">
@@ -70,7 +70,7 @@ and so i did a quick google search about the problem and quickly found a closed 
     <meta property="article:modified_time" content="2025-03-24T16:42:44+00:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="solution to lsp not working in termux">
+  <meta name="twitter:title" content="a solution to lsps not working in termux">
   <meta name="twitter:description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
 and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
 
@@ -169,14 +169,14 @@ and so i did a quick google search about the problem and quickly found a closed 
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">solution to lsp not working in termux</h1><div class="text-xs antialiased opacity-60"><time>Mar 24, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">a solution to lsps not working in termux</h1><div class="text-xs antialiased opacity-60"><time>Mar 24, 2025</time></div></header>
 
   <section><p>while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.</p>
 <p>and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (<a href="https://github.com/termux/termux-packages/issues/19342">link</a>) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) <a href="https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748">link</a></p>
 <p>if you want just the .zip file, here&rsquo;s the link for it:</p>
 <p><a href="https://github.com/termux/termux-exec/files/13802391/termux-exec.zip"><strong>link</strong></a></p>
 <h3 id="how-to-install">how to install?</h3>
-<p>unpack the .zip file, then copy the termux-exec with the right architecture as your phone&rsquo;s to termux&rsquo;s home directory (not neccesarily)</p>
+<p>unpack the .zip file, then copy the termux-exec with the right architecture as your phone&rsquo;s to termux&rsquo;s home directory (not necessarily)</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp termux-exec_2.0.0_aarch64.deb ~ <span style="color:#75715e"># change &#39;aarch64&#39; into yout phone&#39;s architecture</span>
 </span></span></code></pre></div><p>then, run dpkg to install the package:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>dpkg -i termux-exec_2.0.0_aarch64.deb

@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/termux-lsp-solution/</loc>
+    <lastmod>2025-03-24T16:42:44+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2025-03-24T16:42:44+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-03-24T16:42:44+00:00</lastmod>
-  </url><url>
-    <loc>/posts/termux-lsp-solution/</loc>
     <lastmod>2025-03-24T16:42:44+00:00</lastmod>
   </url><url>
     <loc>/posts/being-new-at-git/</loc>
