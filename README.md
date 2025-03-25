@@ -4,5 +4,4 @@ a basic blogpage using [hugo](https://github.com/gohugoio/hugo) as framework, an
 
 it's still in a very barebones state for now on, and i might probably modify the theme later.
 
-for now on at least it's already deployed as this is the first time i try to use something like this.
-
+TODO: migrate to [PaperModX](https://github.com/reorx/hugo-PaperModX)
