@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>a solution to lsps not working in termux | blogpage</title>
-<meta name="keywords" content="Termux, LSP">
-<meta name="description" content="while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.
-and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+<title>that simple?? | blogpage</title>
+<meta name="keywords" content="Git, Hugo">
+<meta name="description" content="while i we&rsquo;re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.
+this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.">
 <meta name="author" content="user8595">
-<link rel="canonical" href="/posts/termux-lsp-solution/">
+<link rel="canonical" href="/posts/that-simple/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,7 +19,7 @@ and so i did a quick google search about the problem and quickly found a closed 
 <link rel="mask-icon" href="/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="/posts/termux-lsp-solution/">
+<link rel="alternate" hreflang="en" href="/posts/that-simple/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,22 +56,22 @@ and so i did a quick google search about the problem and quickly found a closed 
         }
 
     </style>
-</noscript><meta property="og:url" content="/posts/termux-lsp-solution/">
+</noscript><meta property="og:url" content="/posts/that-simple/">
   <meta property="og:site_name" content="blogpage">
-  <meta property="og:title" content="a solution to lsps not working in termux">
-  <meta property="og:description" content="while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.
-and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+  <meta property="og:title" content="that simple??">
+  <meta property="og:description" content="while i we’re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.
+this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-03-24T16:42:44+00:00">
-    <meta property="article:modified_time" content="2025-03-24T16:42:44+00:00">
-    <meta property="article:tag" content="Termux">
-    <meta property="article:tag" content="LSP">
+    <meta property="article:published_time" content="2025-03-28T16:50:28+00:00">
+    <meta property="article:modified_time" content="2025-03-28T16:50:28+00:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Hugo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="a solution to lsps not working in termux">
-<meta name="twitter:description" content="while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.
-and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link">
+<meta name="twitter:title" content="that simple??">
+<meta name="twitter:description" content="while i we&rsquo;re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.
+this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.">
 
 
 <script type="application/ld+json">
@@ -88,8 +88,8 @@ and so i did a quick google search about the problem and quickly found a closed 
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "a solution to lsps not working in termux",
-      "item": "/posts/termux-lsp-solution/"
+      "name": "that simple??",
+      "item": "/posts/that-simple/"
     }
   ]
 }
@@ -98,24 +98,24 @@ and so i did a quick google search about the problem and quickly found a closed 
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "a solution to lsps not working in termux",
-  "name": "a solution to lsps not working in termux",
-  "description": "while i was configure nvim via termux, specifically it\u0026rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it\u0026rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android\u0026rsquo;s side.\nand so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link\n",
+  "headline": "that simple??",
+  "name": "that simple??",
+  "description": "while i we\u0026rsquo;re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.\nthis problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.\n",
   "keywords": [
-    "Termux", "LSP"
+    "Git", "Hugo"
   ],
-  "articleBody": "while i was configure nvim via termux, specifically it’s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it’s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android’s side.\nand so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (link) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) link\nif you want just the .zip file, here’s the link for it:\nlink\nhow to install? unpack the .zip file, then copy the termux-exec with the right architecture as your phone’s to termux’s home directory (not necessarily)\ncp termux-exec_2.0.0_aarch64.deb ~ # change 'aarch64' into yout phone's architecture then, run dpkg to install the package:\ndpkg -i termux-exec_2.0.0_aarch64.deb now run any text editor, and your lsp servers should work at this point.\ni dont know what the package fixes, but at least this solution works.\nthis bug seems to only happens to phones with android 14 and above apparently.\n",
-  "wordCount" : "202",
+  "articleBody": "while i we’re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.\nthis problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.\nwhat did i did? what i did is thst i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.\ngit rm --cached themes/PaperMod # in site home directory git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # i didn't do this i spent too much to find the solution for this, yet it was so simple.\nbut hey, at least the website is now already deployed, so now at least this solution works for me.\ni hope this might be helpful.\n",
+  "wordCount" : "172",
   "inLanguage": "en",
-  "datePublished": "2025-03-24T16:42:44Z",
-  "dateModified": "2025-03-24T16:42:44Z",
+  "datePublished": "2025-03-28T16:50:28Z",
+  "dateModified": "2025-03-28T16:50:28Z",
   "author":{
     "@type": "Person",
     "name": "user8595"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/posts/termux-lsp-solution/"
+    "@id": "/posts/that-simple/"
   },
   "publisher": {
     "@type": "Organization",
@@ -183,43 +183,36 @@ and so i did a quick google search about the problem and quickly found a closed 
   <header class="post-header">
     <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      a solution to lsps not working in termux
+      that simple??
     </h1>
-    <div class="post-meta"><span title='2025-03-24 16:42:44 +0000 UTC'>Mar 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;user8595
+    <div class="post-meta"><span title='2025-03-28 16:50:28 +0000 UTC'>Mar 28, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;user8595
 
 </div>
   </header> 
-  <div class="post-content"><p>while i was configure nvim via termux, specifically it&rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&rsquo;s side.</p>
-<p>and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (<a href="https://github.com/termux/termux-packages/issues/19342">link</a>) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) <a href="https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748">link</a></p>
-<p>if you want just the .zip file, here&rsquo;s the link for it:</p>
-<p><a href="https://github.com/termux/termux-exec/files/13802391/termux-exec.zip"><strong>link</strong></a></p>
-<h3 id="how-to-install">how to install?<a hidden class="anchor" aria-hidden="true" href="#how-to-install">#</a></h3>
-<p>unpack the .zip file, then copy the termux-exec with the right architecture as your phone&rsquo;s to termux&rsquo;s home directory (not necessarily)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp termux-exec_2.0.0_aarch64.deb ~ <span style="color:#75715e"># change &#39;aarch64&#39; into yout phone&#39;s architecture</span>
-</span></span></code></pre></div><p>then, run dpkg to install the package:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>dpkg -i termux-exec_2.0.0_aarch64.deb
-</span></span></code></pre></div><p>now run any text editor, and your lsp servers should work at this point.</p>
-<p>i dont know what the package fixes, but at least this solution works.</p>
-<p>this bug seems to only happens to phones with android 14 and above apparently.</p>
+  <div class="post-content"><p>while i we&rsquo;re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.</p>
+<p>this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.</p>
+<h3 id="what-did-i-did">what did i did?<a hidden class="anchor" aria-hidden="true" href="#what-did-i-did">#</a></h3>
+<p>what i did is thst i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rm --cached themes/PaperMod <span style="color:#75715e"># in site home directory</span>
+</span></span><span style="display:flex;"><span>git submodule add --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</span></span><span style="display:flex;"><span>git submodule update --init --recursive <span style="color:#75715e"># i didn&#39;t do this</span>
+</span></span></code></pre></div><p>i spent too much to find the solution for this, yet it was so simple.</p>
+<p>but hey, at least the website is now already deployed, so now at least this solution works for me.</p>
+<p>i hope this might be helpful.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="/tags/termux/">Termux</a></li>
-      <li><a href="/tags/lsp/">LSP</a></li>
+      <li><a href="/tags/git/">Git</a></li>
+      <li><a href="/tags/hugo/">Hugo</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="/posts/that-simple/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>that simple??</span>
-  </a>
-  <a class="next" href="/posts/being-new-at-git/">
+  <a class="next" href="/posts/termux-lsp-solution/">
     <span class="title">Next »</span>
     <br>
-    <span>being new at git</span>
+    <span>a solution to lsps not working in termux</span>
   </a>
 </nav>
 

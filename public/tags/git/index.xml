@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on blogpage</title>
+    <link>/tags/git/</link>
+    <description>Recent content in Git on blogpage</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <copyright>user8595</copyright>
+    <lastBuildDate>Fri, 28 Mar 2025 16:50:28 +0000</lastBuildDate>
+    <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>that simple??</title>
+      <link>/posts/that-simple/</link>
+      <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
+      <guid>/posts/that-simple/</guid>
+      <description>&lt;p&gt;while i we&amp;rsquo;re migrating this site to papermod fron hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.&lt;/p&gt;
+&lt;p&gt;this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
