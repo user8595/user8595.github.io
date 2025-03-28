@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on blogpage</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://user8595.github.io/posts/</link>
     <description>Recent content in Posts on blogpage</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Mon, 24 Mar 2025 16:42:44 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a solution to lsps not working in termux</title>
-      <link>http://localhost:1313/posts/termux-lsp-solution/</link>
+      <link>https://user8595.github.io/posts/termux-lsp-solution/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>http://localhost:1313/posts/termux-lsp-solution/</guid>
+      <guid>https://user8595.github.io/posts/termux-lsp-solution/</guid>
       <description>&lt;p&gt;while i was configure nvim via termux, specifically it&amp;rsquo;s lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it&amp;rsquo;s properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android&amp;rsquo;s side.&lt;/p&gt;
 &lt;p&gt;and so i did a quick google search about the problem and quickly found a closed github issue at the termux repository (&lt;a href=&#34;https://github.com/termux/termux-packages/issues/19342&#34;&gt;link&lt;/a&gt;) and it also linked another issue at the comments, which included the solution for the problem (on the comments.) &lt;a href=&#34;https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>being new at git</title>
-      <link>http://localhost:1313/posts/being-new-at-git/</link>
+      <link>https://user8595.github.io/posts/being-new-at-git/</link>
       <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>http://localhost:1313/posts/being-new-at-git/</guid>
+      <guid>https://user8595.github.io/posts/being-new-at-git/</guid>
       <description>&lt;p&gt;being completely new and absolutely blind in experience at using something i thought was so complicated, apparently it is easy to use if you have fundamental english skills and knowledge in obscure words, especially if you&amp;rsquo;re a non-english speaker.&lt;/p&gt;
 &lt;p&gt;also maybe in this post there maybe some grammatical(?) errors in the paragraph so please understood as i am not an native english speaker.&lt;/p&gt;
 &lt;p&gt;(the last few words are google translated)&lt;/p&gt;</description>
     </item>
     <item>
       <title>did it work??</title>
-      <link>http://localhost:1313/posts/did-it-work/</link>
+      <link>https://user8595.github.io/posts/did-it-work/</link>
       <pubDate>Sun, 23 Mar 2025 02:11:20 +0000</pubDate>
-      <guid>http://localhost:1313/posts/did-it-work/</guid>
+      <guid>https://user8595.github.io/posts/did-it-work/</guid>
       <description>&lt;h4 id=&#34;this-is-test-pls-ignore&#34;&gt;this is test, pls ignore&lt;/h4&gt;
 &lt;hr&gt;
 &lt;p&gt;it worked!!!!!&lt;/p&gt;</description>
