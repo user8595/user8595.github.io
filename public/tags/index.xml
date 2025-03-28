@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on blogpage</title>
-    <link>https://user8595.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on blogpage</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Mon, 24 Mar 2025 16:42:44 +0000</lastBuildDate>
-    <atom:link href="https://user8595.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LSP</title>
-      <link>https://user8595.github.io/tags/lsp/</link>
+      <link>/tags/lsp/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>https://user8595.github.io/tags/lsp/</guid>
+      <guid>/tags/lsp/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>https://user8595.github.io/tags/termux/</link>
+      <link>/tags/termux/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>https://user8595.github.io/tags/termux/</guid>
+      <guid>/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>https://user8595.github.io/tags/random/</link>
+      <link>/tags/random/</link>
       <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>https://user8595.github.io/tags/random/</guid>
+      <guid>/tags/random/</guid>
       <description></description>
     </item>
   </channel>
