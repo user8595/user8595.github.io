@@ -2,6 +2,7 @@
 date = '2025-03-24T16:42:44Z'
 draft = false
 title = 'a solution to lsps not working in termux'
+tags = ["Termux", "LSP"]
 +++
 while i was configure nvim via termux, specifically it's lsp servers, it will always give an error that the lsp is not installed (error code 2(?)), even though it's properly configured already. the same issue with distributions like nvchad, and (probably) lazyvim. this bug also happens on helix either, which gives a sign that this is a problem to android's side.
 

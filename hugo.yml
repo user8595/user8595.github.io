@@ -1,0 +1,52 @@
+baseURL: "https://user8595.github.io/"
+languageCode: en-us
+title: blogpage
+theme: PaperMod
+copyright: "© [user8595](https://github.com/user8595)"
+
+# change image cache folder location
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  title: user859
+  description: "a digital journal."
+  keywords: [Blog, Writing]
+  author: user8595
+  DateFormat: "Jan 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+
+  params:
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+  
+  label:
+    text: "user859"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "hello there"
+    Content: i hope you find my content intresting.
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/takoislongboi"
+    - name: github
+      url: "https://github.com/user8595"
+
+menu:
+  main:
+    - name: Tags
+      url: tags/
+      weight: 10
