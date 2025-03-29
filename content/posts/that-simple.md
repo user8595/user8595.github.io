@@ -9,7 +9,7 @@ while i was migrating this site to papermod from hugo-paper, i noticed a weird p
 
 this problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from github after i did this.
 
-### what did i did?
+### what's the solution?
 
 what i did is thst i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.
 

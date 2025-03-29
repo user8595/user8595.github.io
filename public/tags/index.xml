@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on blogpage</title>
-    <link>/tags/</link>
+    <link>https://user8595.github.io/tags/</link>
     <description>Recent content in Tags on blogpage</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Fri, 28 Mar 2025 16:50:28 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://user8595.github.io/tags/git/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
-      <guid>/tags/git/</guid>
+      <guid>https://user8595.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://user8595.github.io/tags/hugo/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
-      <guid>/tags/hugo/</guid>
+      <guid>https://user8595.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>LSP</title>
-      <link>/tags/lsp/</link>
+      <link>https://user8595.github.io/tags/lsp/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>/tags/lsp/</guid>
+      <guid>https://user8595.github.io/tags/lsp/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>/tags/termux/</link>
+      <link>https://user8595.github.io/tags/termux/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>/tags/termux/</guid>
+      <guid>https://user8595.github.io/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>/tags/random/</link>
+      <link>https://user8595.github.io/tags/random/</link>
       <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>/tags/random/</guid>
+      <guid>https://user8595.github.io/tags/random/</guid>
       <description></description>
     </item>
   </channel>
