@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
-    <lastBuildDate>Fri, 28 Mar 2025 16:50:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 15:23:03 +0000</lastBuildDate>
     <atom:link href="https://user8595.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random</title>
+      <link>https://user8595.github.io/tags/random/</link>
+      <pubDate>Wed, 02 Apr 2025 15:23:03 +0000</pubDate>
+      <guid>https://user8595.github.io/tags/random/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>https://user8595.github.io/tags/git/</link>
@@ -35,13 +42,6 @@
       <link>https://user8595.github.io/tags/termux/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
       <guid>https://user8595.github.io/tags/termux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Random</title>
-      <link>https://user8595.github.io/tags/random/</link>
-      <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>https://user8595.github.io/tags/random/</guid>
       <description></description>
     </item>
   </channel>
