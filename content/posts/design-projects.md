@@ -20,3 +20,5 @@ a tetris mockup i made in illustrator, took a while to make, especially the clip
 ![singleplayer tetris](/trs-2.png)
 
 the same in singleplayer mode.
+
+i forgot about the shape builder tool at this current project.
