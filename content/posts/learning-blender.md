@@ -13,7 +13,7 @@ As i stated in my [previous post](https://user8595.github.io/posts/blockbench/),
 
 I mean, who wouldn't want to visulize their ideas in the third dimension anyways? So much benefits for learning this particular subject, even though my result still isn't as great from what others could do, but hey, we start somewhere.
 
-I guess i'll just use this post to show off my (slightly unpolished) design i made in Blender. (result in header)
+I guess i'll just use this post to show off my (slightly unpolished) design i made in Blender.
 
 Anyways, i'll add this design into the previous [design project](https://user8595.github.io/posts/design-projects/) post i made a while ago. If there's any opinions/criticisms about the model itself, feel free to write it down on the comments below.
 
