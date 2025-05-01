@@ -11,8 +11,8 @@ caches:
 
 params:
   title: user859
-  description: "a digital journal."
-  keywords: [Blog, Writing]
+  description: "A digital journal."
+  keywords: [Blog, Tech, Design, Writing]
   author: user8595
   DateFormat: "Jan 2, 2006"
   defaultTheme: auto
@@ -30,14 +30,14 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
-  
+
   label:
     text: "user859"
     iconHeight: 35
 
   homeInfoParams:
-    Title: "hello there"
-    Content: i hope you find my content intresting.
+    Title: "Hello there."
+    Content: I hope you find my content intresting.
 
   socialIcons:
     - name: x
