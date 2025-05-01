@@ -11,7 +11,7 @@ This problem, yet with such simple solution (with the help of ai for me), made m
 
 ### What's the solution?
 
-What i did is thst i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.
+What i did is i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.
 
 ```bash
 git rm --cached themes/PaperMod # in site home directory
