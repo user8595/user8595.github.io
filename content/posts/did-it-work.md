@@ -9,7 +9,7 @@ tags = ["Random"]
 
 ---
 
-It worked!!!!!
+it worked!!!!!
 
 Seriously, this is indeed a test post, there is nothing intresting in this page.
 

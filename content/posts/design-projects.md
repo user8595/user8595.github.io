@@ -7,7 +7,7 @@ tags = ["Design"]
 
 Here i'll post my design projects i made at my spare time if i could.
 
-I'll probably update this often if i made a new design project and i feel to post it here.
+I'll probably update this if i made a new design project and i feel to post it here.
 
 ---
 
