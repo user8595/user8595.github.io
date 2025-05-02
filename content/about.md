@@ -1,0 +1,52 @@
+---
+title: "About"
+hidemeta: true
+comments: false
+disableHLJS: true
+disableShare: true
+searchHidden: true
+ShowReadingTime: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: false
+---
+
+---
+
+Hello there, i'm just an average person making random stuff if i have the time. And i hope the stuff i make might be useful for others to know.
+
+# Expertise
+
+- Aspiring Graphic Designer
+
+  - Inkscape (v0.92.5/v1.4)
+  - [CorelDRAW](https://en.m.wikipedia.org/wiki/CorelDRAW) (2018)
+  - Adobe Illustrator (2022)
+
+- Slightly experienced in HTML & CSS, still learning JS.
+
+  - Primarily using Neovim as code editor
+  - Also had experience with VSCode
+
+- Have a slight amount of experience with the CLI
+
+# Interests
+
+- Misspelling wirds
+
+- Tetris, especially the [TGM](https://en.m.wikipedia.org/wiki/Tetris:_The_Grand_Master) series. (S4 in TGM1, 2 in TGM2, forgot about TGM3 (S3-S4 World maybe))
+
+  - For "modern" block stacking games, average speed is ~1.6-2.0 PPS, and record 40L is sub 60s (0:55 maybe), average is ~1:00-15, sorry i dont play tetr.io
+
+- Shumps, but im still bad at them. (i could only play them if it's touch screen, controller/joystick i couldn't pass the first half ot the second level usually)
+  - R-Type series (beaten with cheats)
+  - Einhander (same as above)
+  - Darius series (with infinite continues)
+  - [BHM](https://store.steampowered.com/app/2501550/Bullet_Hell_Monday_Finale/) Series (it's on mobile, go play it)
+  - Ray- Series (with cheats and continues)
+  - Maybe more, but i unfortunantly forgot about them.
+
+In short, i like playing video games. I just play too many genres of this particular subject.
+
+---
