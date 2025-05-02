@@ -1,9 +1,9 @@
-+++
-date = '2025-03-23T09:54:46Z'
-draft = false
-title = 'Being new at Git'
-tags = ["Random"]
-+++
+---
+date: 2025-03-23T09:54:46Z
+draft: false
+title: Being new at Git
+tags: ["Random"]
+---
 
 Being completely new and absolutely blind in experience at using something i thought was so complicated, apparently it is easy to use if you have fundamental english skills and knowledge in obscure words, especially if you're a non-english speaker.
 

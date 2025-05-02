@@ -1,9 +1,9 @@
-+++
-date = '2025-04-18T14:07:10Z'
-draft = false
-title = 'Design Projects'
-tags = ["Design"]
-+++
+---
+date: 2025-04-18T14:07:10Z
+draft: false
+title: Design Projects
+tags: ["Design"]
+---
 
 Here i'll post my design projects i made at my spare time if i could.
 

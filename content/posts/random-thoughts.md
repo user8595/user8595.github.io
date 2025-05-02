@@ -1,9 +1,9 @@
-+++
-date = '2025-04-29T20:22:57Z'
-draft = false
-title = 'About my life itself,'
-tags = ["Vent", "Venting"]
-+++
+---
+date: 2025-04-29T20:22:57Z
+draft: false
+title: Random thought i had at 3AM
+tags: ["Vent", "Thoughts"]
+---
 
 Being as a person that is currently learning what i'm consider as an "accidental passion", which is graphic design, as i don't actually wanted to learn this at first place, but ended up liking it, but since i chose the "wrong" major while looking for a school to apply, yet i still don't have a single life changing skill in my life. yet, and im 17 years late to do it, and the worst part is, i dont know what to write after this. Add that with not being able to understand (some long and even short) conversations, and also not able to speak at others without feeling that someone is looking at me, probably and usually making fun of myself. As a person from a struggling third country, there must be a solution. How am i in this body??
 
@@ -32,5 +32,3 @@ Maybe God only knows at this point. I hope someone could notice this venting jus
 Also, thanks for taking the time for reading this lengthy vent post, this was just some random thought i had just after waking up at 3 AM, and if you want to comment about what i wrote or your opinion about this post, feel free to write about it below.
 
 Only if i learn't about those since i was at a young age, i probably wont write this at all. But here we are.
-
-Now all i need to figure out is how to open comments in this website.

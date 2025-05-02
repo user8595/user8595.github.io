@@ -1,9 +1,9 @@
-+++
-date = '2025-05-02T00:38:31Z'
-draft = false
-title = 'Using Giscus for comments'
-tags = ["Giscus", "Comments"]
-+++
+---
+date: 2025-05-02T00:38:31Z
+draft: false
+title: Using Giscus for comments
+tags: ["Giscus", "Comments"]
+---
 
 It took a while, but i finally figure out how to add comments into this particular website, using [Giscus](https://giscus.app/) as the comment provider (?), instead of using [Disqus](https://disqus.com/).
 

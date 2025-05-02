@@ -1,9 +1,9 @@
-+++
-date = '2025-03-28T16:50:28Z'
-draft = false
-title = 'Git submodule error solution?'
-tags = ["Git", "Hugo"]
-+++
+---
+date: 2025-03-28T16:50:28Z
+draft: false
+title: Git submodule error solution?
+tags: ["Git", "Hugo"]
+---
 
 While i was migrating this site to papermod from hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.
 
