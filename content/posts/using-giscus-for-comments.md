@@ -13,6 +13,6 @@ But since that other providers need you to self-host the aformentioned [provider
 
 The first option probably wouldn't work since i'm hosting this blog via GitHub Pages, which (probably) might not work, or maybe i'm wrong about this, and the second option is the same as the first one. So i'm left wit no choice but to use Giscus instead.
 
-But anyways, at least you can finally comment in this blog, which means you can finally type whatever you want to put down there! And i've finally did my previous promise i said in my [previous](https://user8595.github.io/posts/learning-blender/) [posts](https://user8595.github.io/posts/venting-about-myself/).
+But anyways, at least you can finally comment in this blog, which means you can finally type whatever you want to put down there! And i've finally did my previous promise i said in my previous posts.
 
 And also, adding a search and share button was somehow that simple. Apparently i just didn't read the [wiki](https://github.com/adityatelange/hugo-PaperMod/wiki/Features) + [theme's source code](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml) for its config options.
