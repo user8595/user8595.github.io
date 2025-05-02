@@ -1,7 +1,7 @@
 ---
 date: 2025-03-28T16:50:28Z
 draft: false
-title: Git submodule error solution?
+title: Git submodule error solution
 tags: ["Git", "Hugo"]
 ---
 

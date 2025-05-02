@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LSP on user859</title>
-    <link>https://user8595.github.io/tags/lsp/</link>
+    <link>http://localhost:1313/tags/lsp/</link>
     <description>Recent content in LSP on user859</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Mon, 24 Mar 2025 16:42:44 +0000</lastBuildDate>
-    <atom:link href="https://user8595.github.io/tags/lsp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lsp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LSPs not working solution in Termux</title>
-      <link>https://user8595.github.io/posts/termux-lsp-solution/</link>
+      <link>http://localhost:1313/posts/termux-lsp-solution/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>https://user8595.github.io/posts/termux-lsp-solution/</guid>
+      <guid>http://localhost:1313/posts/termux-lsp-solution/</guid>
       <description>&lt;p&gt;While i was configure nvim via termux, specifically it&amp;rsquo;s lsp servers, it will always give an error that the lsp is not installed (Error code 2(?)), even though it&amp;rsquo;s properly configured already. the same issue with distributions like NvChad, and (probably) LazyVim. This bug also happens on Helix either, which gives a sign that this is a problem to Android&amp;rsquo;s side.&lt;/p&gt;
 &lt;p&gt;And so i did a quick Google search about the problem and quickly found a &lt;a href=&#34;https://github.com/termux/termux-packages/issues/19342&#34;&gt;closed GitHub issue&lt;/a&gt; at the Termux repository and it also &lt;a href=&#34;https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748&#34;&gt;linked another issue&lt;/a&gt; at the comments, which included the solution for the problem (and it&amp;rsquo;s on the comments.)&lt;/p&gt;</description>
     </item>
