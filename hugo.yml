@@ -1,6 +1,6 @@
 baseURL: "https://user8595.github.io/"
 languageCode: en-us
-title: blogpage
+title: user859
 theme: PaperMod
 copyright: "© [user8595](https://github.com/user8595)"
 
@@ -9,9 +9,12 @@ caches:
   images:
     dir: :cacheDir/images
 
+pagination:
+  pagerSize: 5
+
 params:
   title: user859
-  description: "A digital journal."
+  description: "a digital journal."
   keywords: [Blog, Tech, Design, Writing]
   author: user8595
   DateFormat: "Jan 2, 2006"
@@ -22,7 +25,11 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "reddit", "facebook"]
   ShowRssButtonInSectionTermList: true
+  comments: true
 
   params:
   assets:
@@ -45,8 +52,22 @@ params:
     - name: github
       url: "https://github.com/user8595"
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 menu:
   main:
     - name: Tags
       url: tags/
       weight: 10
+    - name: Search
+      url: search/
+      weight: 10
+
+editPost:
+  URL: "https://github.com/user8595/user8595.github.io/tree/master/content/"
+  Text: "Suggest Changes"
+  appendFilePath: true
