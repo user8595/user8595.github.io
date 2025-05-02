@@ -52,6 +52,11 @@ params:
     - name: github
       url: "https://github.com/user8595"
 
+  editPost:
+    URL: "https://github.com/user8595/user8595.github.io/tree/master/content/"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
 outputs:
   home:
     - HTML
@@ -67,7 +72,4 @@ menu:
       url: search/
       weight: 10
 
-editPost:
-  URL: "https://github.com/user8595/user8595.github.io/tree/master/content/"
-  Text: "Suggest Changes"
-  appendFilePath: true
+
