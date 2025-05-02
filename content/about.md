@@ -12,17 +12,17 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 ---
 
----
-
 Hello there, i'm just an average person making random stuff if i have the time. And i hope the stuff i make might be useful for others to know.
 
 # Expertise
 
 - Aspiring Graphic Designer
 
-  - Inkscape (v0.92.5/v1.4)
-  - [CorelDRAW](https://en.m.wikipedia.org/wiki/CorelDRAW) (2018)
-  - Adobe Illustrator (2022)
+  - Inkscape
+  - [CorelDRAW](https://en.m.wikipedia.org/wiki/CorelDRAW)
+  - Adobe Illustrator
+  - Adobe Photoshop
+  - Paint.NET
 
 - Slightly experienced in HTML & CSS, still learning JS.
 
@@ -30,6 +30,8 @@ Hello there, i'm just an average person making random stuff if i have the time. 
   - Also had experience with VSCode
 
 - Have a slight amount of experience with the CLI
+
+---
 
 # Interests
 
@@ -40,6 +42,7 @@ Hello there, i'm just an average person making random stuff if i have the time. 
   - For "modern" block stacking games, average speed is ~1.6-2.0 PPS, and record 40L is sub 60s (0:55 maybe), average is ~1:00-15, sorry i dont play tetr.io
 
 - Shumps, but im still bad at them. (i could only play them if it's touch screen, controller/joystick i couldn't pass the first half ot the second level usually)
+
   - R-Type series (beaten with cheats)
   - Einhander (same as above)
   - Darius series (with infinite continues)
@@ -47,6 +50,11 @@ Hello there, i'm just an average person making random stuff if i have the time. 
   - Ray- Series (with cheats and continues)
   - Maybe more, but i unfortunantly forgot about them.
 
-In short, i like playing video games. I just play too many genres of this particular subject.
+- Has intrest in emulating old consoles. Mainly games from the 4th to 7th generation (Nintendo DS and some PSP only).
 
----
+- Racing games, especially the Gran Turismo series (2 & 4).
+
+- VSRG Rhythm games, although not so often for now. Mainly on [Etterna](https://etternaonline.com/) (but offline), but also played osu!mania and of course, FNF.
+  - Highest MSD i've beaten is (probably) 15-low 16s, but now i barely could beat 14s. So yes, i'm still a beginner.
+
+In short, i like playing video games. I just played too much genres of this particular subject.
