@@ -7,7 +7,7 @@ A basic blog website using [hugo](https://github.com/gohugoio/hugo) as framework
 
 ### Updating hugo-PaperMod
 
-Go to root folder of site, then run this command.
+Go to root folder of site, then run this command:
 
 ```bash
 git submodule update --remote --merge
@@ -27,4 +27,4 @@ Deploy the website locally via localhost:
 hugo server
 ```
 
-The website will be hosted in `http://localhost:1313/`.
+The website will be hosted at `http://localhost:1313/`.
