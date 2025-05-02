@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Giscus on user859</title>
+    <link>http://localhost:1313/tags/giscus/</link>
+    <description>Recent content in Giscus on user859</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <copyright>user8595</copyright>
+    <lastBuildDate>Fri, 02 May 2025 00:38:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/giscus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Giscus for comments</title>
+      <link>http://localhost:1313/posts/using-giscus-for-comments/</link>
+      <pubDate>Fri, 02 May 2025 00:38:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/using-giscus-for-comments/</guid>
+      <description>&lt;p&gt;It took a while, but i finally figure out how to add comments into this particular website, using &lt;a href=&#34;https://giscus.app/&#34;&gt;Giscus&lt;/a&gt; as the comment provider (?), instead of using &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before i resorted on using this provider, i went to look for another comment provider, because using this means you need a GitHub account just to comment, which would probably limit the audience for solely just to make a comment in this website.&lt;/p&gt;
+&lt;p&gt;But since that other providers need you to self-host the aformentioned &lt;a href=&#34;https://comentario.app/en/&#34;&gt;provider&lt;/a&gt;, and this &lt;a href=&#34;https://commento.io/&#34;&gt;provider&lt;/a&gt; either, which this one need you to pay for a subscri‌ption to use it cloud service, which for obvious reasons make sense for the subscription model (server funding).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
