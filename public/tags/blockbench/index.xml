@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blockbench on user859</title>
-    <link>http://localhost:1313/tags/blockbench/</link>
+    <link>https://user8595.github.io/tags/blockbench/</link>
     <description>Recent content in Blockbench on user859</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Fri, 11 Apr 2025 13:57:40 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blockbench/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/tags/blockbench/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Blockbench</title>
-      <link>http://localhost:1313/posts/blockbench/</link>
+      <link>https://user8595.github.io/posts/blockbench/</link>
       <pubDate>Fri, 11 Apr 2025 13:57:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/blockbench/</guid>
+      <guid>https://user8595.github.io/posts/blockbench/</guid>
       <description>&lt;p&gt;Since i dont have the amount of free time to learn, or possibly have the capabilities to just learn blender itself, i decided to give &lt;a href=&#34;https://web.blockbench.net/&#34;&gt;Blockbench&lt;/a&gt; a try.&lt;/p&gt;
 &lt;p&gt;Honestly i only do these kind of stuff just solely for &amp;ldquo;fun&amp;rdquo; anyway, and i might try to learn Blender sometime, but for now maybe this is enough.&lt;/p&gt;
 &lt;p&gt;Anyways i only made just 1 model after all, and its not that much compared to what you could do with this tool.&lt;/p&gt;</description>
