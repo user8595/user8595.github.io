@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on user859</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://user8595.github.io/posts/</link>
     <description>Recent content in Posts on user859</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Sat, 03 May 2025 03:55:57 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimalistic Cursor - A Cursor Theme</title>
-      <link>http://localhost:1313/posts/minimalistic-cursor/</link>
+      <link>https://user8595.github.io/posts/minimalistic-cursor/</link>
       <pubDate>Sat, 03 May 2025 03:55:57 +0000</pubDate>
-      <guid>http://localhost:1313/posts/minimalistic-cursor/</guid>
+      <guid>https://user8595.github.io/posts/minimalistic-cursor/</guid>
       <description>&lt;p&gt;If you just want to download the theme instead of reading everything, you can open this &lt;a href=&#34;#where-to-download&#34;&gt;link here&lt;/a&gt;, or scroll to the very bottom of the page instead.&lt;/p&gt;
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;So probably a year ago, i tried to make my own cuesor theme solely using a vector edito, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.&lt;/p&gt;
+&lt;p&gt;So probably a year ago, i tried to make my own cursor theme solely using a vector editor, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.&lt;/p&gt;
 &lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
 &lt;p&gt;So i decided to start making the entire thing, all done without a concept or so. The hardest part about the entire cursor is making the hand pointing cursor. I had to look at my hand several times, doing the generic &amp;ldquo;finger-pointing gesture&amp;rdquo; in cursors, as a reference while making the entire thing, and usually the result befure i figured out the shape of the hand itself, is that the lower part of the hand is sometimes too small or probably too large. At least this is one of the first ones i made before moving on to the other ones.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Giscus for comments</title>
-      <link>http://localhost:1313/posts/using-giscus-for-comments/</link>
+      <link>https://user8595.github.io/posts/using-giscus-for-comments/</link>
       <pubDate>Fri, 02 May 2025 00:38:31 +0000</pubDate>
-      <guid>http://localhost:1313/posts/using-giscus-for-comments/</guid>
+      <guid>https://user8595.github.io/posts/using-giscus-for-comments/</guid>
       <description>&lt;p&gt;It took a while, but i finally figure out how to add comments into this particular website, using &lt;a href=&#34;https://giscus.app/&#34;&gt;Giscus&lt;/a&gt; as the comment provider (?), instead of using &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Before i resorted on using this provider, i went to look for another comment provider, because using this means you need a GitHub account just to comment, which would probably limit the audience for solely just to make a comment in this website.&lt;/p&gt;
 &lt;p&gt;But since that other providers need you to self-host the aformentioned &lt;a href=&#34;https://comentario.app/en/&#34;&gt;provider&lt;/a&gt;, and this &lt;a href=&#34;https://commento.io/&#34;&gt;provider&lt;/a&gt; either, which this one need you to pay for a subscri‌ption to use it cloud service, which for obvious reasons make sense for the subscription model (server funding).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Blender</title>
-      <link>http://localhost:1313/posts/learning-blender/</link>
+      <link>https://user8595.github.io/posts/learning-blender/</link>
       <pubDate>Thu, 01 May 2025 15:06:30 +0000</pubDate>
-      <guid>http://localhost:1313/posts/learning-blender/</guid>
+      <guid>https://user8595.github.io/posts/learning-blender/</guid>
       <description>&lt;p&gt;As i stated in my &lt;a href=&#34;https://user8595.github.io/posts/blockbench/&#34;&gt;previous post&lt;/a&gt;, i didn&amp;rsquo;t plan to learn how to use this piece of program or 3D Modelling as a whole, but since i was curious on how to use this particular program, i decided to give it a try instead.&lt;/p&gt;
 &lt;p&gt;I mean, who wouldn&amp;rsquo;t want to visualize their ideas in the third dimension anyways? So much benefits for learning this particular subject, even though my result still isn&amp;rsquo;t as great from what others could do, but hey, we start somewhere.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Random thought i had at 3AM</title>
-      <link>http://localhost:1313/posts/random-thoughts/</link>
+      <link>https://user8595.github.io/posts/random-thoughts/</link>
       <pubDate>Tue, 29 Apr 2025 20:22:57 +0000</pubDate>
-      <guid>http://localhost:1313/posts/random-thoughts/</guid>
+      <guid>https://user8595.github.io/posts/random-thoughts/</guid>
       <description>&lt;p&gt;Being as a person that is currently learning what i&amp;rsquo;m consider as an &amp;ldquo;accidental passion&amp;rdquo;, which is graphic design, as i don&amp;rsquo;t actually wanted to learn this at first place, but ended up liking it, but since i chose the &amp;ldquo;wrong&amp;rdquo; major while looking for a school to apply, yet i still don&amp;rsquo;t have a single life changing skill in my life. yet, and im 17 years late to do it, and the worst part is, i dont know what to write after this. Add that with not being able to understand (some long and even short) conversations, and also not able to speak at others without feeling that someone is looking at me, probably and usually making fun of myself. As a person from a struggling third country, there must be a solution. How am i in this body??&lt;/p&gt;</description>
     </item>
     <item>
       <title>Design Projects</title>
-      <link>http://localhost:1313/posts/design-projects/</link>
+      <link>https://user8595.github.io/posts/design-projects/</link>
       <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
-      <guid>http://localhost:1313/posts/design-projects/</guid>
+      <guid>https://user8595.github.io/posts/design-projects/</guid>
       <description>&lt;p&gt;Here i&amp;rsquo;ll post my design projects i made at my spare time if i could.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll probably update this if i made a new design project and i feel to post it here.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img alt=&#34;multiplayer tetris&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/trs-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;multiplayer tetris&#34; loading=&#34;lazy&#34; src=&#34;https://user8595.github.io/trs-1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A Tetris mockup i made in Illustrator, took a while to make, especially the clipping masks for the background.&lt;/p&gt;
 &lt;p&gt;(its marathon in multiplayer, i know it&amp;rsquo;s weird but i just want to &amp;ldquo;keep it that way&amp;rdquo;.)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Blockbench</title>
-      <link>http://localhost:1313/posts/blockbench/</link>
+      <link>https://user8595.github.io/posts/blockbench/</link>
       <pubDate>Fri, 11 Apr 2025 13:57:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/blockbench/</guid>
+      <guid>https://user8595.github.io/posts/blockbench/</guid>
       <description>&lt;p&gt;Since i dont have the amount of free time to learn, or possibly have the capabilities to just learn blender itself, i decided to give &lt;a href=&#34;https://web.blockbench.net/&#34;&gt;Blockbench&lt;/a&gt; a try.&lt;/p&gt;
 &lt;p&gt;Honestly i only do these kind of stuff just solely for &amp;ldquo;fun&amp;rdquo; anyway, and i might try to learn Blender sometime, but for now maybe this is enough.&lt;/p&gt;
 &lt;p&gt;Anyways i only made just 1 model after all, and its not that much compared to what you could do with this tool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Post ideas?</title>
-      <link>http://localhost:1313/posts/post-ideas/</link>
+      <link>https://user8595.github.io/posts/post-ideas/</link>
       <pubDate>Wed, 02 Apr 2025 15:23:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-ideas/</guid>
+      <guid>https://user8595.github.io/posts/post-ideas/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s so hard to think something intresting what to post in this blog, especially if you&amp;rsquo;re not a writer.&lt;/p&gt;
 &lt;p&gt;After all, this all started as a school assignment, that quickly became something much more a bit &amp;ldquo;advanced&amp;rdquo; compared to just setting up an Blogger site.&lt;/p&gt;
 &lt;p&gt;And yet, i&amp;rsquo;m still on a vacation on another province anyways, so i still have alot of time to make new posts, even after vacation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git submodule error solution</title>
-      <link>http://localhost:1313/posts/git-submodule-solution/</link>
+      <link>https://user8595.github.io/posts/git-submodule-solution/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
-      <guid>http://localhost:1313/posts/git-submodule-solution/</guid>
+      <guid>https://user8595.github.io/posts/git-submodule-solution/</guid>
       <description>&lt;p&gt;While i was migrating this site to papermod from hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.&lt;/p&gt;
 &lt;p&gt;This problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from GitHub after i did this.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LSPs not working solution in Termux</title>
-      <link>http://localhost:1313/posts/termux-lsp-solution/</link>
+      <link>https://user8595.github.io/posts/termux-lsp-solution/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>http://localhost:1313/posts/termux-lsp-solution/</guid>
+      <guid>https://user8595.github.io/posts/termux-lsp-solution/</guid>
       <description>&lt;p&gt;While i was configure nvim via termux, specifically it&amp;rsquo;s lsp servers, it will always give an error that the lsp is not installed (Error code 2(?)), even though it&amp;rsquo;s properly configured already. the same issue with distributions like NvChad, and (probably) LazyVim. This bug also happens on Helix either, which gives a sign that this is a problem to Android&amp;rsquo;s side.&lt;/p&gt;
 &lt;p&gt;And so i did a quick Google search about the problem and quickly found a &lt;a href=&#34;https://github.com/termux/termux-packages/issues/19342&#34;&gt;closed GitHub issue&lt;/a&gt; at the Termux repository and it also &lt;a href=&#34;https://github.com/termux/termux-exec-package/pull/24#issuecomment-1873059748&#34;&gt;linked another issue&lt;/a&gt; at the comments, which included the solution for the problem (and it&amp;rsquo;s on the comments.)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Being new at Git</title>
-      <link>http://localhost:1313/posts/being-new-at-git/</link>
+      <link>https://user8595.github.io/posts/being-new-at-git/</link>
       <pubDate>Sun, 23 Mar 2025 09:54:46 +0000</pubDate>
-      <guid>http://localhost:1313/posts/being-new-at-git/</guid>
+      <guid>https://user8595.github.io/posts/being-new-at-git/</guid>
       <description>&lt;p&gt;Being completely new and absolutely blind in experience at using something i thought was so complicated, apparently it is easy to use if you have fundamental english skills and knowledge in obscure words, especially if you&amp;rsquo;re a non-english speaker.&lt;/p&gt;
 &lt;p&gt;Also maybe in this post there maybe some grammatical(?) errors in the paragraph so please understood as i am not an native english speaker.&lt;/p&gt;
 &lt;p&gt;(the last few words are google translated)&lt;/p&gt;</description>
     </item>
     <item>
       <title>did it work??</title>
-      <link>http://localhost:1313/posts/did-it-work/</link>
+      <link>https://user8595.github.io/posts/did-it-work/</link>
       <pubDate>Sun, 23 Mar 2025 02:11:20 +0000</pubDate>
-      <guid>http://localhost:1313/posts/did-it-work/</guid>
+      <guid>https://user8595.github.io/posts/did-it-work/</guid>
       <description>&lt;h4 id=&#34;this-is-test-pls-ignore&#34;&gt;This is test, pls ignore&lt;/h4&gt;
 &lt;hr&gt;
 &lt;p&gt;it worked!!!!!&lt;/p&gt;

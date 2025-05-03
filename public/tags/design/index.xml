@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Design on user859</title>
-    <link>http://localhost:1313/tags/design/</link>
+    <link>https://user8595.github.io/tags/design/</link>
     <description>Recent content in Design on user859</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Fri, 18 Apr 2025 14:07:10 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Projects</title>
-      <link>http://localhost:1313/posts/design-projects/</link>
+      <link>https://user8595.github.io/posts/design-projects/</link>
       <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
-      <guid>http://localhost:1313/posts/design-projects/</guid>
+      <guid>https://user8595.github.io/posts/design-projects/</guid>
       <description>&lt;p&gt;Here i&amp;rsquo;ll post my design projects i made at my spare time if i could.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll probably update this if i made a new design project and i feel to post it here.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img alt=&#34;multiplayer tetris&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/trs-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;multiplayer tetris&#34; loading=&#34;lazy&#34; src=&#34;https://user8595.github.io/trs-1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A Tetris mockup i made in Illustrator, took a while to make, especially the clipping masks for the background.&lt;/p&gt;
 &lt;p&gt;(its marathon in multiplayer, i know it&amp;rsquo;s weird but i just want to &amp;ldquo;keep it that way&amp;rdquo;.)&lt;/p&gt;</description>
     </item>

@@ -12,7 +12,7 @@ If you just want to download the theme instead of reading everything, you can op
 
 ## Intro
 
-So probably a year ago, i tried to make my own cuesor theme solely using a vector edito, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.
+So probably a year ago, i tried to make my own cursor theme solely using a vector editor, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.
 
 ## Process
 

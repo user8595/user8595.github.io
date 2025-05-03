@@ -2,130 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on user859</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://user8595.github.io/tags/</link>
     <description>Recent content in Tags on user859</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Sat, 03 May 2025 03:55:57 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cursor</title>
-      <link>http://localhost:1313/tags/cursor/</link>
+      <link>https://user8595.github.io/tags/cursor/</link>
       <pubDate>Sat, 03 May 2025 03:55:57 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cursor/</guid>
+      <guid>https://user8595.github.io/tags/cursor/</guid>
       <description></description>
     </item>
     <item>
       <title>Cursor Theme</title>
-      <link>http://localhost:1313/tags/cursor-theme/</link>
+      <link>https://user8595.github.io/tags/cursor-theme/</link>
       <pubDate>Sat, 03 May 2025 03:55:57 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cursor-theme/</guid>
+      <guid>https://user8595.github.io/tags/cursor-theme/</guid>
       <description></description>
     </item>
     <item>
       <title>Customization</title>
-      <link>http://localhost:1313/tags/customization/</link>
+      <link>https://user8595.github.io/tags/customization/</link>
       <pubDate>Sat, 03 May 2025 03:55:57 +0000</pubDate>
-      <guid>http://localhost:1313/tags/customization/</guid>
+      <guid>https://user8595.github.io/tags/customization/</guid>
       <description></description>
     </item>
     <item>
       <title>Comments</title>
-      <link>http://localhost:1313/tags/comments/</link>
+      <link>https://user8595.github.io/tags/comments/</link>
       <pubDate>Fri, 02 May 2025 00:38:31 +0000</pubDate>
-      <guid>http://localhost:1313/tags/comments/</guid>
+      <guid>https://user8595.github.io/tags/comments/</guid>
       <description></description>
     </item>
     <item>
       <title>Giscus</title>
-      <link>http://localhost:1313/tags/giscus/</link>
+      <link>https://user8595.github.io/tags/giscus/</link>
       <pubDate>Fri, 02 May 2025 00:38:31 +0000</pubDate>
-      <guid>http://localhost:1313/tags/giscus/</guid>
+      <guid>https://user8595.github.io/tags/giscus/</guid>
       <description></description>
     </item>
     <item>
       <title>3D Modelling</title>
-      <link>http://localhost:1313/tags/3d-modelling/</link>
+      <link>https://user8595.github.io/tags/3d-modelling/</link>
       <pubDate>Thu, 01 May 2025 15:06:30 +0000</pubDate>
-      <guid>http://localhost:1313/tags/3d-modelling/</guid>
+      <guid>https://user8595.github.io/tags/3d-modelling/</guid>
       <description></description>
     </item>
     <item>
       <title>Blender</title>
-      <link>http://localhost:1313/tags/blender/</link>
+      <link>https://user8595.github.io/tags/blender/</link>
       <pubDate>Thu, 01 May 2025 15:06:30 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blender/</guid>
+      <guid>https://user8595.github.io/tags/blender/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
-      <link>http://localhost:1313/tags/thoughts/</link>
+      <link>https://user8595.github.io/tags/thoughts/</link>
       <pubDate>Tue, 29 Apr 2025 20:22:57 +0000</pubDate>
-      <guid>http://localhost:1313/tags/thoughts/</guid>
+      <guid>https://user8595.github.io/tags/thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Vent</title>
-      <link>http://localhost:1313/tags/vent/</link>
+      <link>https://user8595.github.io/tags/vent/</link>
       <pubDate>Tue, 29 Apr 2025 20:22:57 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vent/</guid>
+      <guid>https://user8595.github.io/tags/vent/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/tags/design/</link>
+      <link>https://user8595.github.io/tags/design/</link>
       <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/design/</guid>
+      <guid>https://user8595.github.io/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Addon</title>
-      <link>http://localhost:1313/tags/addon/</link>
+      <link>https://user8595.github.io/tags/addon/</link>
       <pubDate>Fri, 11 Apr 2025 13:57:40 +0000</pubDate>
-      <guid>http://localhost:1313/tags/addon/</guid>
+      <guid>https://user8595.github.io/tags/addon/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockbench</title>
-      <link>http://localhost:1313/tags/blockbench/</link>
+      <link>https://user8595.github.io/tags/blockbench/</link>
       <pubDate>Fri, 11 Apr 2025 13:57:40 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blockbench/</guid>
+      <guid>https://user8595.github.io/tags/blockbench/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>http://localhost:1313/tags/random/</link>
+      <link>https://user8595.github.io/tags/random/</link>
       <pubDate>Wed, 02 Apr 2025 15:23:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/random/</guid>
+      <guid>https://user8595.github.io/tags/random/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://user8595.github.io/tags/git/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
-      <guid>http://localhost:1313/tags/git/</guid>
+      <guid>https://user8595.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://user8595.github.io/tags/hugo/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://user8595.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>LSP</title>
-      <link>http://localhost:1313/tags/lsp/</link>
+      <link>https://user8595.github.io/tags/lsp/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lsp/</guid>
+      <guid>https://user8595.github.io/tags/lsp/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>http://localhost:1313/tags/termux/</link>
+      <link>https://user8595.github.io/tags/termux/</link>
       <pubDate>Mon, 24 Mar 2025 16:42:44 +0000</pubDate>
-      <guid>http://localhost:1313/tags/termux/</guid>
+      <guid>https://user8595.github.io/tags/termux/</guid>
       <description></description>
     </item>
   </channel>

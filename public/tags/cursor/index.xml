@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cursor on user859</title>
-    <link>http://localhost:1313/tags/cursor/</link>
+    <link>https://user8595.github.io/tags/cursor/</link>
     <description>Recent content in Cursor on user859</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
     <lastBuildDate>Sat, 03 May 2025 03:55:57 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cursor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://user8595.github.io/tags/cursor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimalistic Cursor - A Cursor Theme</title>
-      <link>http://localhost:1313/posts/minimalistic-cursor/</link>
+      <link>https://user8595.github.io/posts/minimalistic-cursor/</link>
       <pubDate>Sat, 03 May 2025 03:55:57 +0000</pubDate>
-      <guid>http://localhost:1313/posts/minimalistic-cursor/</guid>
+      <guid>https://user8595.github.io/posts/minimalistic-cursor/</guid>
       <description>&lt;p&gt;If you just want to download the theme instead of reading everything, you can open this &lt;a href=&#34;#where-to-download&#34;&gt;link here&lt;/a&gt;, or scroll to the very bottom of the page instead.&lt;/p&gt;
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;So probably a year ago, i tried to make my own cuesor theme solely using a vector edito, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.&lt;/p&gt;
+&lt;p&gt;So probably a year ago, i tried to make my own cursor theme solely using a vector editor, which is Inkscape, instead of using Photoshop or simillar because i dont know how to make a simple square in that particular program.&lt;/p&gt;
 &lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
 &lt;p&gt;So i decided to start making the entire thing, all done without a concept or so. The hardest part about the entire cursor is making the hand pointing cursor. I had to look at my hand several times, doing the generic &amp;ldquo;finger-pointing gesture&amp;rdquo; in cursors, as a reference while making the entire thing, and usually the result befure i figured out the shape of the hand itself, is that the lower part of the hand is sometimes too small or probably too large. At least this is one of the first ones i made before moving on to the other ones.&lt;/p&gt;</description>
     </item>
