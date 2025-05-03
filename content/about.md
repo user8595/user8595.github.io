@@ -54,7 +54,7 @@ Hello there, i'm just an average person making random stuff if i have the time. 
 
 - Racing games, especially the Gran Turismo series (2 & 4).
 
-- VSRG Rhythm games, although not so often for now. Mainly on [Etterna](https://etternaonline.com/) (but offline), but also played osu!mania and of course, FNF.
+- VSRG games, although not so often for now. Mainly on [Etterna](https://etternaonline.com/) (but offline), but also played osu!mania and of course, FNF.
   - Highest MSD i've beaten is (probably) 15-low 16s, but now i barely could beat 14s. So yes, i'm still a beginner.
 
 In short, i like playing video games. I just played too much genres of this particular subject.

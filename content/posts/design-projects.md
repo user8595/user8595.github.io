@@ -38,3 +38,5 @@ A simple laptop model i made around ~2 days, made this so i could learn the app 
 A [cursor theme](https://github.com/user8595/minimal-cursor) i made in Inkscape, and using the [RealWorld Cursor Editor](http://www.rw-designer.com/cursor-maker) for converting or adjusting the vector results into a cursor file.
 
 This design project is old, it's made around a year ago. I lost the original modified dates while i was moving the files into another computer. It's probably made around the month of December IIRC. But at least it's still somewhat complete.
+
+You can read a detailed explanation of this [cursor theme here.](/posts/content/minimalistic-cursor)
