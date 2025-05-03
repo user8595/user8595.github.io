@@ -39,4 +39,4 @@ A [cursor theme](https://github.com/user8595/minimal-cursor) i made in Inkscape,
 
 This design project is old, it's made around a year ago. I lost the original modified dates while i was moving the files into another computer. It's probably made around the month of December IIRC. But at least it's still somewhat complete.
 
-You can read a detailed explanation of this [cursor theme here.](/posts/content/minimalistic-cursor)
+You can read a detailed explanation of this [cursor theme here.](https://user8595.github.io/posts/minimalistic-cursor)

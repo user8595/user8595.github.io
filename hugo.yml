@@ -65,12 +65,12 @@ outputs:
 
 menu:
   main:
-    - name: Search
-      url: search/
-      weight: 5
     - name: Tags
       url: tags/
       weight: 2
+    - name: Search
+      url: search/
+      weight: 5
     - name: About
       url: about/
       weight: 10
