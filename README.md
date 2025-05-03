@@ -28,3 +28,11 @@ hugo server
 ```
 
 The website will be hosted at `http://localhost:1313/`.
+
+**NOTE**: To build website before deploying, use
+
+```bash
+hugo
+```
+
+so `<link>` tags in /public directory will refer to the `baseURL` in the config, not using `localhost:1313`.
