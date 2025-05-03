@@ -20,7 +20,7 @@ So i decided to start making the entire thing, all done without a concept or so.
 
 Probably the most non-functional design i made is the old "busy cursor" (as shown in the preview). No ones going to focus on a bar that's small as a speck of hair _(this is according to my opinion btw.)_. Instead i opted to do the generic blue color for the busy cursor, with the shape also resembling Windows's (so creative).
 
-Once i finished all of the cursor designs, i converted all of the cursor designs one-by-one as PNGs, then opened them using RW Cursor Editor to convert them into `.cur` files. This process is quite "straight forward", as i just adjusted the cursor hotspots into the center of the image (15,15 or 31,32 maybe, i forgot).
+Once i finished all of the cursor designs, i converted all of the cursor designs one-by-one as PNGs, then opened them using [RW Cursor Editor](http://www.rw-designer.com/cursor-maker) to convert them into `.cur` files. This process is quite "straight forward", as i just adjusted the cursor hotspots into the center of the image (15,15 or 31,32 maybe, i forgot).
 
 After all is done. i need to do one last thing: the `install.inf` file. I had to find another cursor theme that has this file so that i dont need to write it all myself (i meant as a template). I forgot what cursor theme i used for the installer for the cursor, but what i did is edit the `[Scheme.reg]` and the `[Scheme.cur]` sections with the respeftive file names from the cursors, then rename the files from the `[Strings]` sectipn into also the filenames in the cursor theme either. Also change the name of the cursor pack either, and the directory name for the cursor theme.
 
