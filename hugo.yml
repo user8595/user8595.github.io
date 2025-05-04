@@ -37,6 +37,7 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
+    disableHLJS: true
 
   label:
     text: "user859"
@@ -56,6 +57,12 @@ params:
     URL: "https://github.com/user8595/user8595.github.io/tree/master/content/"
     Text: "Suggest Changes"
     appendFilePath: true
+
+markup:
+  highlight:
+    style: catppuccin-mocha
+    lineNos: true
+    noClasses: false
 
 outputs:
   home:
