@@ -16,4 +16,6 @@ I guess i'll just use this post to show off my (slightly unpolished) design i ma
 
 Anyways, i'll add this design into the previous [design project](https://user8595.github.io/posts/design-projects/) post i made a while ago. If there's any opinions/criticisms about the model itself, feel free to write it down on the comments below.
 
+(Update 5-4-2025: For now i will add new 3D designs into [this post](https://user8595.github.io/posts/design-projects/) instead of making another one.)
+
 (It's also the first time i tried to add ✨️formal✨ formatting in this blog, so if you noticed that this blog looks different now, this is your answer.)
