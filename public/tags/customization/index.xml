@@ -7,8 +7,20 @@
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <copyright>user8595</copyright>
-    <lastBuildDate>Sat, 03 May 2025 03:55:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 15:16:50 +0000</lastBuildDate>
     <atom:link href="https://user8595.github.io/tags/customization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mdernize - Minimalist Cursor</title>
+      <link>https://user8595.github.io/posts/mdernize-minimalist-cursor/</link>
+      <pubDate>Tue, 06 May 2025 15:16:50 +0000</pubDate>
+      <guid>https://user8595.github.io/posts/mdernize-minimalist-cursor/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;As simillar to the &lt;a href=&#34;https://user8595.github.io/posts/minimalstic-cursor&#34;&gt;previous post&lt;/a&gt;, i made this cursor using &lt;a href=&#34;https://inkscape.org&#34;&gt;Inkscape&lt;/a&gt; and &lt;a href=&#34;www.rw-designer.com/cursor-maker&#34;&gt;RealWorld Cursor Editor&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;where-to-download&#34;&gt;Where to download?&lt;/h2&gt;
+&lt;p&gt;You can download the the latest version from the &lt;a href=&#34;https://www.github.com/user8595/mdernize/releases/latest&#34;&gt;GitHub Releases&lt;/a&gt; on &lt;a href=&#34;https://www.github.com/user8595/mdernize/&#34;&gt;this repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;p&gt;This cursor was made a week ago if i recall correct, and the work was quite &amp;ldquo;tedious&amp;rdquo;, i had to relearn how to make the pointing hand again, even though i&amp;rsquo;ve already made another one (which is better than this one i&amp;rsquo;m making, explained later). I also forgot how to use the cursor editor as how i used it before, such as making a cursor fole larger than 64x64 (largest in preset).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Minimalistic Cursor - A Cursor Theme</title>
       <link>https://user8595.github.io/posts/minimalistic-cursor/</link>
