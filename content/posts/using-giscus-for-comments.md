@@ -3,6 +3,7 @@ date: 2025-05-02T00:38:31Z
 draft: false
 title: Using Giscus for comments
 tags: ["Giscus", "Comments"]
+summary: "Using others needs me to pay for a subscription, and most needs to be self-hosted, so this is the only option now."
 ---
 
 It took a while, but i finally figure out how to add comments into this particular website, using [Giscus](https://giscus.app/) as the comment provider (?), instead of using [Disqus](https://disqus.com/).

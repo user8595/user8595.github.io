@@ -6,6 +6,7 @@ tags: ["Cursor", "Cursor Theme", "Customization"]
 cover:
   image: /mdernize.png
   caption: "A minimalist cursor with a focus of usability."
+summary: "My latest cursor theme, explained in this article."
 ---
 
 ## Intro

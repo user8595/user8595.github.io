@@ -14,8 +14,7 @@
       <link>https://user8595.github.io/posts/git-submodule-solution/</link>
       <pubDate>Fri, 28 Mar 2025 16:50:28 +0000</pubDate>
       <guid>https://user8595.github.io/posts/git-submodule-solution/</guid>
-      <description>&lt;p&gt;While i was migrating this site to papermod from hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.&lt;/p&gt;
-&lt;p&gt;This problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from GitHub after i did this.&lt;/p&gt;</description>
+      <description>A solution for Hugo failing to compile the website due to a missing Git submodule.</description>
     </item>
   </channel>
 </rss>

@@ -3,6 +3,7 @@ date: 2025-04-02T15:23:03Z
 draft: false
 title: Post ideas?
 tags: ["Random"]
+summary: "Thoughts about post ideas."
 ---
 
 It's so hard to think something intresting what to post in this blog, especially if you're not a writer.

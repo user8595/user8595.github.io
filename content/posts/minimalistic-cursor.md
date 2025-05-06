@@ -6,6 +6,7 @@ tags: ["Cursor", "Cursor Theme", "Customization"]
 cover:
   image: /cursor.png
   caption: "A minimalist cursor i made using Inkscape and RealWorld Cursor Editor, using a simple yet functional design, while still looking aesthetically pleasing to use."
+summary: "An old cursor theme i made a year ago."
 ---
 
 If you just want to download the theme instead of reading everything, you can open this [link here](#where-to-download), or scroll to the very bottom of the page instead.

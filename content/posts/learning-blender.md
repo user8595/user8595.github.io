@@ -6,6 +6,7 @@ tags: ["Blender", "3D Modelling"]
 cover:
   image: /laptop.png
   caption: "A simple laptop model in Blender, that took me 2 days to finish since i'm new to 3D Modelling as a whole. "
+summary: "A post to show my first blender model."
 ---
 
 As i stated in my [previous post](https://user8595.github.io/posts/blockbench/), i didn't plan to learn how to use this piece of program or 3D Modelling as a whole, but since i was curious on how to use this particular program, i decided to give it a try instead.

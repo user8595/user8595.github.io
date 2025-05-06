@@ -3,6 +3,7 @@ date: 2025-03-28T16:50:28Z
 draft: false
 title: Git submodule error solution
 tags: ["Git", "Hugo"]
+summary: "A solution for Hugo failing to compile the website due to a missing Git submodule."
 ---
 
 While i was migrating this site to papermod from hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.

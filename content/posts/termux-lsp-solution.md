@@ -3,6 +3,7 @@ date: 2025-03-24T16:42:44Z
 draft: false
 title: LSPs not working solution in Termux
 tags: ["Termux", "LSP"]
+summary: "Solution for LSP servers not working, e.g for autocomplete."
 ---
 
 While i was configure nvim via termux, specifically it's lsp servers, it will always give an error that the lsp is not installed (Error code 2(?)), even though it's properly configured already. the same issue with distributions like NvChad, and (probably) LazyVim. This bug also happens on Helix either, which gives a sign that this is a problem to Android's side.

@@ -3,6 +3,7 @@ date: 2025-04-18T14:07:10Z
 draft: false
 title: Design Projects
 tags: ["Design"]
+summary: "A list of my design projects, both 2D and 3D designs."
 ---
 
 Here i'll post my design projects i made at my spare time if i could.
