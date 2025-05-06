@@ -19,7 +19,7 @@ You can download the the latest version from the [GitHub Releases](https://www.g
 
 ## Process
 
-This cursor was made a week ago if i recall correct, and the work was quite "tedious", i had to relearn how to make the pointing hand again, even though i've already made another one (which is better than this one i'm making, explained later). I also forgot how to use the cursor editor as how i used it before, such as making a cursor fole larger than 64x64 (largest in preset).
+This cursor was made a week ago if i recall correct, and the work was quite "tedious", i had to relearn how to make the pointing hand again, even though i've already made another one (which is better than this one i'm making, explained later). I also forgot how to use the cursor editor as how i used it before, such as making a cursor file larger than 64x64 (largest in preset).
 
 ## Misc. info
 
