@@ -37,4 +37,6 @@ Clearly i didn't realize that while i made the cursor, but at least this somewha
 
 This short post seems to be fitting as a rant about myself about how your old self could be better at some cases. But still, regardless everything that you do, nothing is perfect anyway, as a single mistake will be lingering there and it is completely unavoidable.
 
+Also, some of the flaws in this cursor theme are still fixable woth patches anyway, so i shouldn't bother much about it. And preparing TODO lists aren't a bad idea either.
+
 But anyways if there's any improvements or criticisms about the cursor other than what i stated earlier, you can write it down at the comments if there's something worth to change.
