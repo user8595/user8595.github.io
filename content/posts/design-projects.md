@@ -3,6 +3,9 @@ date: 2025-04-18T14:07:10Z
 draft: false
 title: Design Projects
 tags: ["Design"]
+weight: 5
+cover:
+  image: /design.png
 summary: "A list of my design projects, both 2D and 3D designs."
 ---
 
@@ -49,3 +52,14 @@ A simple laptop model i made around ~2 days, made this so i could learn the app 
 ![bedroom](/bedroom.png)
 
 A 3D model of a bedroom made in Blender as my second project. Adding an entire description of this image would probably be left in another post instead, as this seems to be an entire "leap of detail" from my previous one.
+
+---
+
+![computer](/desk1.png)
+![back view](/desk2.png)
+![overall view](/desk3.png)
+![side view](/desk4.png)
+
+A 3D model of a generic vintage computer desk. I've learnt quite much while making this while thing, as this one took a quite amount of time to make itself. I chose to make a CRT monitor as it's large shape makes it more challenging to make, even though it's still looks simplistic in the result.
+
+It's also the first time i made the keycaps accurate to the generic QWERTY keyboard layout, compared to the first one, which is obvious after all. But despite all of that i still haven't added key labels on them.

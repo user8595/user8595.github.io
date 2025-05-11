@@ -10,6 +10,13 @@
     <lastBuildDate>Tue, 06 May 2025 15:16:50 +0000</lastBuildDate>
     <atom:link href="https://user8595.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Design Projects</title>
+      <link>https://user8595.github.io/posts/design-projects/</link>
+      <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
+      <guid>https://user8595.github.io/posts/design-projects/</guid>
+      <description>A list of my design projects, both 2D and 3D designs.</description>
+    </item>
+    <item>
       <title>mdernize - Minimalist Cursor</title>
       <link>https://user8595.github.io/posts/mdernize-minimalist-cursor/</link>
       <pubDate>Tue, 06 May 2025 15:16:50 +0000</pubDate>
@@ -43,13 +50,6 @@
       <pubDate>Tue, 29 Apr 2025 20:22:57 +0000</pubDate>
       <guid>https://user8595.github.io/posts/random-thoughts/</guid>
       <description>Just a random vent i had after waking up in the middle of the night.</description>
-    </item>
-    <item>
-      <title>Design Projects</title>
-      <link>https://user8595.github.io/posts/design-projects/</link>
-      <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
-      <guid>https://user8595.github.io/posts/design-projects/</guid>
-      <description>A list of my design projects, both 2D and 3D designs.</description>
     </item>
     <item>
       <title>Using Blockbench</title>
