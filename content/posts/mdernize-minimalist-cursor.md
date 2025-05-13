@@ -11,7 +11,7 @@ summary: "My latest cursor theme, explained in this article."
 
 ## Intro
 
-As simillar to the [previous post](https://user8595.github.io/posts/minimalstic-cursor), i made this cursor using [Inkscape](https://inkscape.org) and [RealWorld Cursor Editor](www.rw-designer.com/cursor-maker).
+As simillar to the [previous post](https://user8595.github.io/posts/minimalistic-cursor), i made this cursor using [Inkscape](https://inkscape.org) and [RealWorld Cursor Editor](www.rw-designer.com/cursor-maker).
 
 ## Where to download?
 
