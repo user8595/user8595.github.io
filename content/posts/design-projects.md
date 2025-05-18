@@ -71,6 +71,6 @@ It's also the first time i made the keycaps accurate to the generic QWERTY keybo
 
 An short render of a gaming keyboard, following [this tutorial.](https://youtu.be/ZV0LKw0qylg) No wonder why just 5-10 seconds of footage could be so long just to render.
 
-The difference from the render i made from the video is that i did not use the Cycles renderer, hence why there's no flow effect in the keyboard. I haven't tried to render it on cycles yet, so i can't tell if the glow effect worked. And also the keyboard layout being small.
+The difference from the render i made from the video is that i did not use the Cycles renderer, hence why there's no glow effect in the keyboard. I haven't tried to render it on cycles yet, so i can't tell if the glow effect worked. And also the keyboard layout being small.
 
 (Despite the video, i did not render this on a PC.)
