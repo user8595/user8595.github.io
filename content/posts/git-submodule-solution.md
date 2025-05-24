@@ -2,7 +2,7 @@
 date: 2025-03-28T16:50:28Z
 draft: false
 title: Git submodule error solution
-tags: ["Git", "Hugo"]
+tags: ["Git"]
 summary: "A solution for Hugo failing to compile the website due to a missing Git submodule."
 ---
 

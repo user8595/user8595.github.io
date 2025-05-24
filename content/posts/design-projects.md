@@ -2,7 +2,7 @@
 date: 2025-04-18T14:07:10Z
 draft: false
 title: Design Projects
-tags: ["Design"]
+tags: ["Design", "3D Modelling"]
 weight: 5
 cover:
   image: /design.png

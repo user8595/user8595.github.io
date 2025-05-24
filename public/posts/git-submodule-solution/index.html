@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Git submodule error solution | user859</title>
-<meta name="keywords" content="Git, Hugo">
+<meta name="keywords" content="Git">
 <meta name="description" content="A solution for Hugo failing to compile the website due to a missing Git submodule.">
 <meta name="author" content="user8595">
 <link rel="canonical" href="https://user8595.github.io/posts/git-submodule-solution/">
@@ -65,7 +65,6 @@
     <meta property="article:published_time" content="2025-03-28T16:50:28+00:00">
     <meta property="article:modified_time" content="2025-03-28T16:50:28+00:00">
     <meta property="article:tag" content="Git">
-    <meta property="article:tag" content="Hugo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git submodule error solution">
 <meta name="twitter:description" content="A solution for Hugo failing to compile the website due to a missing Git submodule.">
@@ -99,7 +98,7 @@
   "name": "Git submodule error solution",
   "description": "A solution for Hugo failing to compile the website due to a missing Git submodule.",
   "keywords": [
-    "Git", "Hugo"
+    "Git"
   ],
   "articleBody": "While i was migrating this site to papermod from hugo-paper, i noticed a weird problem while github was building my site, failing to do so because of a missing submodule.\nThis problem, yet with such simple solution (with the help of ai for me), made me waste so much time, from removing the themes folder and even as far as removing the .git folder itself. at last i knew how to pull the repository from GitHub after i did this.\nWhat’s the solution? What i did is i remove the cached git submodule, then remove the theme folder, and cloning the theme as a submodule.\n1 2 3 git rm --cached themes/PaperMod # in site home directory git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # i didn't do this I spent too much to find the solution for this, yet it was so simple.\nBut hey, at least the website is now already deployed, so now at least this solution works for me.\nI hope this might be helpful.\n",
   "wordCount" : "173",
@@ -222,7 +221,6 @@
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://user8595.github.io/tags/git/">Git</a></li>
-      <li><a href="https://user8595.github.io/tags/hugo/">Hugo</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://user8595.github.io/posts/post-ideas/">
@@ -241,7 +239,7 @@
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Git submodule error solution on x"
-            href="https://x.com/intent/tweet/?text=Git%20submodule%20error%20solution&amp;url=https%3a%2f%2fuser8595.github.io%2fposts%2fgit-submodule-solution%2f&amp;hashtags=Git%2cHugo">
+            href="https://x.com/intent/tweet/?text=Git%20submodule%20error%20solution&amp;url=https%3a%2f%2fuser8595.github.io%2fposts%2fgit-submodule-solution%2f&amp;hashtags=Git">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

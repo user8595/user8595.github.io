@@ -2,7 +2,7 @@
 date: 2025-05-03T03:55:57Z
 draft: false
 title: Minimalistic Cursor - A Cursor Theme
-tags: ["Cursor", "Cursor Theme", "Customization"]
+tags: ["Customization"]
 cover:
   image: /cursor.png
   caption: "A minimalist cursor i made using Inkscape and RealWorld Cursor Editor, using a simple yet functional design, while still looking aesthetically pleasing to use."

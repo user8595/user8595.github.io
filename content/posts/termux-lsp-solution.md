@@ -2,7 +2,7 @@
 date: 2025-03-24T16:42:44Z
 draft: false
 title: LSPs not working solution in Termux
-tags: ["Termux", "LSP"]
+tags: ["Termux"]
 summary: "Solution for LSP servers not working, e.g for autocomplete."
 ---
 

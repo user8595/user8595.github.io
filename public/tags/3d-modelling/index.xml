@@ -10,11 +10,25 @@
     <lastBuildDate>Thu, 01 May 2025 15:06:30 +0000</lastBuildDate>
     <atom:link href="https://user8595.github.io/tags/3d-modelling/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Design Projects</title>
+      <link>https://user8595.github.io/posts/design-projects/</link>
+      <pubDate>Fri, 18 Apr 2025 14:07:10 +0000</pubDate>
+      <guid>https://user8595.github.io/posts/design-projects/</guid>
+      <description>A list of my design projects, both 2D and 3D designs.</description>
+    </item>
+    <item>
       <title>Learning Blender</title>
       <link>https://user8595.github.io/posts/learning-blender/</link>
       <pubDate>Thu, 01 May 2025 15:06:30 +0000</pubDate>
       <guid>https://user8595.github.io/posts/learning-blender/</guid>
       <description>A post to show my first blender model.</description>
+    </item>
+    <item>
+      <title>Using Blockbench</title>
+      <link>https://user8595.github.io/posts/blockbench/</link>
+      <pubDate>Fri, 11 Apr 2025 13:57:40 +0000</pubDate>
+      <guid>https://user8595.github.io/posts/blockbench/</guid>
+      <description>My experience with learing 3D Modelling for the first time with Blockbench.</description>
     </item>
   </channel>
 </rss>

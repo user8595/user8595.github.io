@@ -50,6 +50,8 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/takoislongboi"
+    - name: youtube
+      url: "https://youtube.com/@user8595istaken"
     - name: github
       url: "https://github.com/user8595"
 

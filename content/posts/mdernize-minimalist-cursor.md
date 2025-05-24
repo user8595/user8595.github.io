@@ -2,7 +2,7 @@
 date: 2025-05-06T15:16:50Z
 draft: false
 title: mdernize - Minimalist Cursor
-tags: ["Cursor", "Cursor Theme", "Customization"]
+tags: ["Customization"]
 cover:
   image: /mdernize.png
   caption: "A minimalist cursor with a focus of usability."

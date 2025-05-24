@@ -2,7 +2,7 @@
 date: 2025-04-11T13:57:40Z
 draft: false
 title: Using Blockbench
-tags: ["Blockbench", "Addon"]
+tags: ["3D Modelling"]
 summary: " My experience with learing 3D Modelling for the first time with Blockbench."
 ---
 

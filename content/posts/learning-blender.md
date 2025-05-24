@@ -2,7 +2,7 @@
 date: 2025-05-01T15:06:30Z
 draft: false
 title: Learning Blender
-tags: ["Blender", "3D Modelling"]
+tags: ["3D Modelling"]
 cover:
   image: /laptop.png
   caption: "A simple laptop model in Blender, that took me 2 days to finish since i'm new to 3D Modelling as a whole. "

@@ -2,7 +2,7 @@
 date: 2025-05-02T00:38:31Z
 draft: false
 title: Using Giscus for comments
-tags: ["Giscus", "Comments"]
+tags: ["Giscus"]
 summary: "Using others needs me to pay for a subscription, and most needs to be self-hosted, so this is the only option now."
 ---
 
