@@ -48,11 +48,11 @@ params:
     Content: I hope you find my content intresting.
 
   socialIcons:
-    - name: x
+    - name: "x"
       url: "https://x.com/takoislongboi"
-    - name: youtube
+    - name: "youtube"
       url: "https://youtube.com/@user8595istaken"
-    - name: github
+    - name: "github"
       url: "https://github.com/user8595"
 
   editPost:
