@@ -27,7 +27,7 @@ Hello there, i'm just an average person making random stuff if i have the time. 
 
 - Slightly experienced in HTML & CSS, still learning JS.
 
-  - Primarily using Neovim and VSCode as primary code editors.
+  - Primarily using Neovim and VSCode as code editors.
 
 - Have a slight amount of experience with the CLI.
 
