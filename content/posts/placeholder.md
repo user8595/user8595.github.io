@@ -10,7 +10,9 @@ summary: "My thoughts of being a barely-blog writer."
 
 As a person whose writing capabilities couldn't finish a single paragraph, it would be obvious why this blog is still very empty, still too devoid of any useful content.
 
-It seems that i could only write something if i did something intresting, not something much more, ahem "abstract" like usual ("actual" thoughts). And thats obvious because i want to keep this website as a generic thoughts page, but i might change this "principle" in the future if i decide to.
+It seems that i could only write something if i did something intresting, not something much more, ahem "abstract" like usual ("actual" thoughts). And thats obvious because  i want to keep this website as some sort of an generic personal journal, which are from my thoughts. I might change this "principle" in the future if i decide to, but why would i do that anyways after all?
+
+Ironically, i'm stating that i wont write my own thoughts in this blog at the first half, but since i don't know what to change the section, i'll just keep it as is now.
 
 On another note, it's been weeks since i've learn't 3D modelling via [Blender](https://www.blender.org), and because of this, my vision of just looking at "simple" 3D animations has changed drastically. How could such mortal soul is able to create those keyframes under a week/month?? or maybe they simulated those using physics simulations i think.
 
