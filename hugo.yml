@@ -14,7 +14,7 @@ pagination:
 
 params:
   title: user859
-  description: "A digital space for my thoughts or maybe a journal."
+  description: "A digital space for my thoughts or maybe as a journal."
   keywords: [Blog, Tech, Design, Writing]
   author: user8595
   DateFormat: "Jan 2, 2006"
@@ -77,6 +77,9 @@ menu:
     - name: Tags
       url: tags/
       weight: 2
+    - name: Archives
+      url: archives/
+      weight: 4
     - name: Search
       url: search/
       weight: 5
