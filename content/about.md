@@ -23,14 +23,13 @@ Hello there, i'm just an average person making random stuff if i have the time. 
   - Adobe Illustrator
   - Adobe Photoshop
   - Paint.NET
-  - For the list of design projects i made, [in this link.](https://user8595.github.io/posts/design-projects/)
+  - For the list of design projects i made, [check this link.](https://user8595.github.io/posts/design-projects/)
 
 - Slightly experienced in HTML & CSS, still learning JS.
 
-  - Primarily using Neovim as code editor
-  - Also had experience with VSCode
+  - Primarily using Neovim and VSCode as primary code editors.
 
-- Have a slight amount of experience with the CLI
+- Have a slight amount of experience with the CLI.
 
 ---
 
