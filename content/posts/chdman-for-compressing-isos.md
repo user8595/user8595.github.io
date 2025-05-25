@@ -85,9 +85,10 @@ chdman createdvd -i "GAME-NAME.iso" -o "GAME-Name.chd" -hs 2048 # untested
 Where:
 
 - `createcd`: Converts the CD disk file (.iso) into a .chd.
-- 'createdvd': Converts the DVD disk file (.iso) into a .chd. (untested now)
+- `createdvd`: Converts the DVD disk file (.iso) into a .chd. (untested now)
 - `-i`: The file to convert (input).
 - `-o`: The converted result's file name.
+- `-hs`: Hunk size for .chd file. (optional)
 
 Replace `"GAME-NAME"` with the name of the game you wish to convert, e.g
 
