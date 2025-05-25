@@ -43,6 +43,7 @@ Before compiling, make sure to download the prerequisites first.
 apt update && apt upgrade -y
 apt install build-essential git cmake ninja
 ```
+If you don't want to compile it manully using the below steps or have installed MAME, [go to this link](#convert-iso-to-chd).
 
 ## Compile chdman
 
@@ -71,6 +72,8 @@ chmod +x $PATH/chdman
 ## Convert .iso to .chd
 
 Finally, convert the .iso file to .chd with this command below.
+
+(If you skipped to this link, the `chdman` is in the root of the MAME emulator.)
 
 ```bash
 chdman createcd -i "GAME-NAME.iso" -o "GAME-NAME.chd"
