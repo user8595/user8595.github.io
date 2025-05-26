@@ -37,13 +37,14 @@ If you only have access to a mobile phone, then you must compile from source bec
 
 ## Install Prerequisites
 
+> If you don't want to compile it manully using the below steps or have installed MAME, [go to this link](#convert-iso-to-chd).
+
 Before compiling, make sure to download the prerequisites first.
 
 ```bash
 apt update && apt upgrade -y
 apt install build-essential git cmake ninja
 ```
-If you don't want to compile it manully using the below steps or have installed MAME, [go to this link](#convert-iso-to-chd).
 
 ## Compile chdman
 
@@ -73,7 +74,7 @@ chmod +x $PATH/chdman
 
 Finally, convert the .iso file to .chd with this command below.
 
-(If you skipped to this link, the `chdman` is in the root of the MAME emulator.)
+> If you skipped to this link, the `chdman` is in the root of the MAME emulator.
 
 ```bash
 chdman createcd -i "GAME-NAME.iso" -o "GAME-NAME.chd"
@@ -99,9 +100,9 @@ Replace `"GAME-NAME"` with the name of the game you wish to convert, e.g
 chdman createcd -i "Auto Modellista (Europe) (En,Fr,De,Es,It).iso" -o "Auto Modellista (Europe) (En,Fr,De,Es,It).chd"
 ```
 
-(This example is apparently a CD disk game, so `createcd` works on this.)
-
-(On another note, i converted [GT4 Spec II](https://www.theadmiester.co.uk/specii/) using namDHC, so i can't tell if it used `createcd` or `createdvd`.)
+> This example is apparently a CD disk game, so `createcd` works on this.
+>
+> On another note, i converted [GT4 Spec II](https://www.theadmiester.co.uk/specii/) using namDHC, so i can't tell if it used `createcd` or `createdvd`.
 
 The process might take a moment to finish, depending on the size of the game.
 
