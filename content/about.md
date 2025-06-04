@@ -50,7 +50,7 @@ Hello there, i'm just an average person making random stuff if i have the time. 
   - Darius series (with infinite continues)
   - [BHM](https://store.steampowered.com/app/2501550/Bullet_Hell_Monday_Finale/) Series (it's on mobile, go play it)
   - Ray- Series (with cheats and continues)
-  - Psyvariar (PS2), highest score i've got is 7901400, 4-A.
+  - Psyvariar: Revision (PS2), highest score i've got is 7901400, 4-A.
   - Maybe more, but i unfortunantly forgot about them.
 
 - Has interest in emulating old consoles. Mainly games from the 4th to 7th generation.
