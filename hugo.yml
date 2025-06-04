@@ -27,7 +27,7 @@ params:
   ShowCodeCopyButtons: true
   ShowPageNums: true
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "twitter", "reddit", "facebook"]
+  ShareButtons: ["twitter", "reddit"]
   ShowRssButtonInSectionTermList: true
   comments: true
 
@@ -44,8 +44,8 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Hello there."
-    Content: I hope you find my content intresting.
+    Title: "eightyfivenine"
+    Content: A digital space for my thoughts or maybe as a journal.
 
   socialIcons:
     - name: "x"
