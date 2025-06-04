@@ -12,7 +12,7 @@ cover:
 
 # Intro
 
-> NOTE: If you don't want to do everyrhing from this article, consider downloading [namDHC](https://github.com/umageddon/namDHC) if you're using Windows. Otherwise continue reading below.
+> If you don't want to do everything from this article, consider downloading [namDHC](https://github.com/umageddon/namDHC) if you're using Windows. Otherwise continue reading below.
 
 Having an interest in emulation in general, it's obvious if i need to face with such painfully large files, particularly games from the 6-7th generation consoles. Thia might not be a problem for some people, but it's not bad to save several gigabytes in your storage for other content, especially for mobile users like me or people who have limited storage. Because of this, the only way to shrinken the filesizes is to use tools that let you do so.
 
@@ -114,4 +114,4 @@ The result of the converted file should be smaller than the original .iso file, 
 
 # Conclusion
 
-This tool can be effecive for saving space, especially when storing such files in a device with limited storage. Be wary however though, as for applying ROM hack patches will be impossible according to a source i found off the internet, as the converted file is different from the original. Therefore, patches aren't possible to apply onto the .chd file.
+This tool can be effecive for saving space, especially when storing such files in a device with limited storage. Be wary however though, as for applying ROM hack patches will be **impossible**, according to a source i found off the internet, as the hashes (an unique binary number in every file?) of the converted file is different from the original file itself. Therefore, patches aren't possible to apply onto the .chd file.
