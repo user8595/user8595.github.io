@@ -33,8 +33,6 @@ h2 {
 
 a {
   -webkit-tap-highlight-color: transparent;
-  /* color: inherit; */
-  /* text-decoration: none; */
 }
 
 img {
@@ -132,8 +130,8 @@ footer {
 }
 
 .footer {
-  color: #eee;
-  text-decoration: underline inherit;
+  color: #999;
+  text-decoration: underline #999;
 }
 
 @media screen and (min-width: 576px) {
