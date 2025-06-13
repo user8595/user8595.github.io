@@ -131,6 +131,11 @@ footer {
   margin-bottom: 16px;
 }
 
+.footer {
+  color: #eee;
+  text-decoration: solid inherit;
+}
+
 @media screen and (min-width: 576px) {
   h2 {
     font-size: 28px;
