@@ -44,7 +44,7 @@ img {
 
 footer {
   text-align: center;
-  color: #4e4e4e;
+  color: #777;
   font-size: 12px;
   line-height: 1.75em;
   font-family: "SourceSerif";
@@ -133,7 +133,7 @@ footer {
 
 .footer {
   color: #eee;
-  text-decoration: solid inherit;
+  text-decoration: underline inherit;
 }
 
 @media screen and (min-width: 576px) {
