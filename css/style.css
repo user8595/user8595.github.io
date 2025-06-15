@@ -104,7 +104,7 @@ footer {
 .content {
   font-family: "SourceSerif";
   font-size: 14px;
-  background-color: #252529;
+  background-color: #27272a;
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 8px;
@@ -116,7 +116,7 @@ footer {
 }
 
 .content:active {
-  background-color: #212124;
+  background-color: #222225;
   transform: translateY(3px);
   transition-duration: 0.2s;
 }
