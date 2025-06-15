@@ -116,7 +116,7 @@ footer {
 }
 
 .content:active {
-  background-color: #242426;
+  background-color: #262628;
   transform: translateY(3px);
   transition-duration: 0.2s;
 }
