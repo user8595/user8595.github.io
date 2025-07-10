@@ -59,7 +59,7 @@ footer {
 }
 
 .profilePage {
-  border-radius: 6px;
+  border-radius: 4px;
   margin-top: 28px;
   margin-left: 20px;
 }
@@ -69,6 +69,12 @@ footer {
   text-align: center;
   font-family: "w95fa";
   font-weight: normal;
+  font-size: 32px;
+}
+
+.headerPage {
+  margin-top: 28px;
+  font-family: "w95fa";
   font-size: 32px;
 }
 
