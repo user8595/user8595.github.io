@@ -58,6 +58,10 @@ footer {
   margin-top: 28px;
 }
 
+.profilePage {
+  border-radius: 6px;
+}
+
 .header {
   margin: 16px;
   text-align: center;
