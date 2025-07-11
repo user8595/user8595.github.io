@@ -33,6 +33,7 @@ h2 {
 }
 
 a {
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -48,6 +49,12 @@ footer {
   line-height: 1.75em;
   font-family: "SourceSerif";
   margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+iframe {
+  border: none;
+  border-radius: 4px;
   margin-bottom: 12px;
 }
 
@@ -161,12 +168,56 @@ footer {
 
 .titlePage {
   margin: 24px 24px -8px;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .aboutPage {
   font-family: SourceSerif;
   margin: 24px;
+}
+
+.coverPage {
+  margin-left: auto;
+}
+
+.pageContainer {
+  margin: 24px 24px 0px 24px;
+}
+
+.descPage {
+  font-family: SourceSerif;
+}
+
+.breadcrumb {
+  margin-inline: 24px;
+  font-size: 16px;
+  background-color: #34343b;
+  border-radius: 6px;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-family: "w95fa";
+}
+
+.downloadButton {
+  display: inline-block;
+  background-color: #444448;
+  font-family: "w95fa";
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 12px 36px;
+  margin-bottom: 16px;
+}
+
+.downloadButton:hover {
+  transition-duration: 0.2s;
+}
+
+.downloadButton:active {
+  background-color: #27272a;
+  transform: translateY(3px);
+  transition-duration: 0.2s;
 }
 
 @media screen and (min-width: 576px) {
@@ -185,7 +236,25 @@ footer {
   .content {
     margin-inline: auto;
     margin-bottom: 12px;
-    width: 80%;
+    width: 75%;
     font-size: 14px;
+  }
+
+  .titlePage {
+    margin-inline: 12.5%;
+    font-size: 32px;
+  }
+
+  .profilePage {
+    margin-left: 48px;
+  }
+
+  .breadcrumb {
+    margin-inline: 71px;
+  }
+
+  .pageContainer {
+    margin-inline: auto;
+    width: 75%;
   }
 }
