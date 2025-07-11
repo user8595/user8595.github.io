@@ -73,7 +73,7 @@ footer {
 .headerPage {
   text-decoration: none;
   color: inherit;
-  margin-top: 8px;
+  margin-top: -14px;
   margin-left: 12px;
   font-family: "w95fa";
   font-size: 32px;
@@ -85,7 +85,6 @@ footer {
 
 .topPage {
   display: flex;
-  align-content: center;
   justify-content: left;
   margin: 24px;
 }
