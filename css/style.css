@@ -186,11 +186,12 @@ iframe {
 
 .descPage {
   font-family: SourceSerif;
+  font-size: 14px;
 }
 
 .breadcrumb {
   margin-inline: 24px;
-  font-size: 16px;
+  font-size: 12px;
   background-color: #34343b;
   border-radius: 6px;
   padding: 8px 10px;
@@ -242,7 +243,7 @@ iframe {
 
   .titlePage {
     margin-inline: 12.5%;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .profilePage {
