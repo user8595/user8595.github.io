@@ -56,7 +56,6 @@ iframe {
   border: none;
   border-radius: 4px;
   margin-bottom: 12px;
-  width: 100%
 }
 
 .profile {
@@ -227,10 +226,6 @@ iframe {
     font-size: 24px;
   }
   
-  iframe {
-    width: 40%;
-  }
-
   .list {
     padding: 8px 32px 16px 32px;
   }
