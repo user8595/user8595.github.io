@@ -56,6 +56,7 @@ iframe {
   border: none;
   border-radius: 4px;
   margin-bottom: 12px;
+  width: 100%
 }
 
 .profile {
@@ -191,7 +192,7 @@ iframe {
 
 .breadcrumb {
   margin-inline: 24px;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #34343b;
   border-radius: 6px;
   padding: 8px 10px;
@@ -225,6 +226,10 @@ iframe {
   h2 {
     font-size: 24px;
   }
+  
+  iframe {
+    width: 40%;
+  }
 
   .list {
     padding: 8px 32px 16px 32px;
@@ -244,6 +249,10 @@ iframe {
   .titlePage {
     margin-inline: 12.5%;
     font-size: 28px;
+  }
+
+  .aboutPage {
+    margin-inline: 12.5%;
   }
 
   .profilePage {
