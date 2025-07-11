@@ -1,4 +1,4 @@
-Simple link/bio website made in plain HTML/CSS.
+Minimalist personal website written in plain HTML/CSS.
 
 ### TODO
 
