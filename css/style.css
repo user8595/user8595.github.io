@@ -242,6 +242,7 @@ iframe {
   }
 
   .titlePage {
+    margin-inline: 12.5%;
     font-size: 28px;
   }
 
@@ -250,7 +251,7 @@ iframe {
   }
 
   .profilePage {
-    margin-inline: 12.5%;
+    margin-left: 12.5%;
   }
 
   .breadcrumb {
