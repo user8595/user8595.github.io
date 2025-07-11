@@ -58,7 +58,6 @@ footer {
 }
 
 .profilePage {
-  display: flex;
   border-radius: 4px;
 }
 
@@ -71,10 +70,10 @@ footer {
 }
 
 .headerPage {
-  display: block;
+  position: absolute;
   text-decoration: none;
   color: inherit;
-  margin-top: 14px;
+  top: 30px;
   margin-left: 12px;
   font-family: "w95fa";
   font-size: 32px;
@@ -117,6 +116,7 @@ footer {
   /* background-color: #292929; */
   font-family: "w95fa";
   padding: 8px 20px 16px 20px;
+  margin-bottom: -16px;
 }
 
 .content {
@@ -152,16 +152,6 @@ footer {
 
 .cover {
   margin-bottom: 16px;
-}
-
-.contentPage {
-  text-decoration: none;
-  color: inherit;
-  font-family: "SourceSerif";
-  font-size: 14px;
-  margin: 24px;
-  padding: 16px;
-  background-color: #34343b;
 }
 
 .footer {
