@@ -88,6 +88,7 @@ iframe {
 
 .header1 {
   font-size: 30px;
+  margin-inline: 12.5%;
 }
 
 .topPage {
@@ -251,11 +252,11 @@ iframe {
   }
 
   .profilePage {
-    margin-left: 48px;
+    margin-inline: 12.5%;
   }
 
   .breadcrumb {
-    margin-inline: 71px;
+    margin-inline: 12.5%;
     font-size: 12px;
   }
 
