@@ -1,8 +1,7 @@
 @font-face {
   font-family: "w95fa";
   font-display: swap;
-  src:
-    url("./fonts/W95FA.ttf") format("truetype"),
+  src: url("./fonts/W95FA.ttf") format("truetype"),
     url("./fonts/W95FA.otf") format("opentype"),
     url("./fonts/w95fa.woff") format("woff"),
     url("./fonts/w95fa.woff2") format("woff2");
@@ -59,10 +58,8 @@ footer {
 }
 
 .profilePage {
-  display: block;
+  display: flex;
   border-radius: 4px;
-  margin-top: 28px;
-  margin-left: 20px;
 }
 
 .header {
@@ -74,13 +71,23 @@ footer {
 }
 
 .headerPage {
-  margin-top: 28px;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 8px;
+  margin-left: 12px;
   font-family: "w95fa";
   font-size: 32px;
 }
 
 .header1 {
   font-size: 30px;
+}
+
+.topPage {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  margin: 24px;
 }
 
 .social {
@@ -149,21 +156,44 @@ footer {
   margin-bottom: 16px;
 }
 
+.contentPage {
+  text-decoration: none;
+  color: inherit;
+  font-family: "SourceSerif";
+  font-size: 14px;
+  margin: 24px;
+  padding: 16px;
+  background-color: #34343b;
+}
+
 .footer {
   color: inherit;
   text-decoration: underline inherit;
+}
+
+.titlePage {
+  margin: 24px 24px -8px;
+  font-size: 28px;
+}
+
+.aboutPage {
+  font-family: SourceSerif;
+  margin: 24px;
 }
 
 @media screen and (min-width: 576px) {
   h2 {
     font-size: 24px;
   }
+
   .list {
     padding: 8px 32px 16px 32px;
   }
+
   .header1 {
     margin-left: 8%;
   }
+
   .content {
     margin-inline: auto;
     margin-bottom: 12px;
