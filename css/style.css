@@ -71,9 +71,10 @@ footer {
 }
 
 .headerPage {
+  display: block;
   text-decoration: none;
   color: inherit;
-  margin-top: -14px;
+  margin-top: 14px;
   margin-left: 12px;
   font-family: "w95fa";
   font-size: 32px;
@@ -84,8 +85,6 @@ footer {
 }
 
 .topPage {
-  display: flex;
-  justify-content: left;
   margin: 24px;
 }
 
