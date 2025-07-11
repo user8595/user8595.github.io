@@ -53,12 +53,13 @@ footer {
 }
 
 .profile {
-  /* display: block; */
+  display: block;
   margin: auto;
   margin-top: 28px;
 }
 
 .profilePage {
+  display: block;
   border-radius: 4px;
   margin-top: 28px;
   margin-left: 20px;
