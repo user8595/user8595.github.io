@@ -167,13 +167,13 @@ iframe {
 }
 
 .titlePage {
-  margin: 24px 24px -8px;
+  margin: 24px 0px -8px;
   font-size: 32px;
 }
 
 .aboutPage {
   font-family: SourceSerif;
-  margin: 24px;
+  margin: 24px 0px;
 }
 
 .coverPage {
@@ -225,7 +225,7 @@ iframe {
   h2 {
     font-size: 24px;
   }
-  
+
   .list {
     padding: 8px 32px 16px 32px;
   }
@@ -242,25 +242,54 @@ iframe {
   }
 
   .titlePage {
-    margin-inline: 13%;
+    margin-inline: 10.6%;
     font-size: 28px;
   }
 
+  .margin {
+    margin-inline: 12.5%;
+  }
+
   .aboutPage {
-    margin-inline: 13%;
+    margin-inline: 10.6%;
   }
 
   .profilePage {
-    margin-left: 12.5%;
+    margin-left: 10.65%;
   }
 
   .breadcrumb {
     margin-inline: 12.5%;
-    font-size: 12px;
   }
 
   .pageContainer {
     margin-inline: auto;
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .list {
+    padding: 8px 135px 16px;
+  }
+
+  .pageContainer {
+    width: 58%;
+  }
+
+  .topPage {
+    margin-inline: 12.5%;
+  }
+
+  .profilePage {
+    margin-left: 11%
+  }
+
+  .breadcrumb {
+    margin-inline: 20.7%;
+  }
+
+  .margin {
+    margin-inline: 20.7%;
   }
 }
