@@ -180,6 +180,10 @@ iframe {
   margin-left: auto;
 }
 
+.margin {
+  margin-inline: 24px;
+}
+
 .pageContainer {
   margin: 24px 24px 0px 24px;
 }
