@@ -1,7 +1,8 @@
 @font-face {
   font-family: "w95fa";
   font-display: swap;
-  src: url("./fonts/W95FA.ttf") format("truetype"),
+  src:
+    url("./fonts/W95FA.ttf") format("truetype"),
     url("./fonts/W95FA.otf") format("opentype"),
     url("./fonts/w95fa.woff") format("woff"),
     url("./fonts/w95fa.woff2") format("woff2");
@@ -49,12 +50,6 @@ footer {
   line-height: 1.75em;
   font-family: "SourceSerif";
   margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-iframe {
-  border: none;
-  border-radius: 4px;
   margin-bottom: 12px;
 }
 
@@ -225,6 +220,10 @@ iframe {
   transition-duration: 0.2s;
 }
 
+lite-youtube {
+  --lite-youtube-frame-shadow-visible: no;
+}
+
 @media screen and (min-width: 576px) {
   h2 {
     font-size: 24px;
@@ -286,7 +285,7 @@ iframe {
   }
 
   .profilePage {
-    margin-left: 11%
+    margin-left: 11%;
   }
 
   .breadcrumb {

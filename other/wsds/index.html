@@ -6,6 +6,7 @@
     <meta name="description" content="Simple input overlay for use with the input-overlay plugin for OBS Studio." />
     <title>wsds - eightyfivenine</title>
     <link href="/css/style.css" rel="stylesheet" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
   </head>
   <body>
     <div class="topPage">
@@ -43,8 +44,13 @@
         </ul>
       </p>
       <h2>Preview Video</h2>
-      <iframe width="370" height="280" src="https://www.youtube.com/embed/v_EZ2WzBSh4">
-      </iframe>
+      <lite-youtube 
+        videoid="v_EZ2WzBSh4"
+        posterquality="maxresdefault"
+        ><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v=v_EZ2WzBSh4">
+          Tetris The Grandmaster (PS1) | S2 @ 06:41.41
+        </a>
+      </lite-youtube>
       <h2>Downloads</h2>
       <a
         href="https://user8595.github.io/other/wsds/wsds.zip"
