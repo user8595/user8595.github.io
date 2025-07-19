@@ -221,6 +221,8 @@ footer {
 }
 
 lite-youtube {
+  border-radius: 6px;
+  margin-bottom: 4px;
   --lite-youtube-frame-shadow-visible: no;
 }
 
