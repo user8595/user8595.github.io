@@ -1,3 +1,4 @@
+/* "SpagettiCode" - Spaghetti woven by master coders, made of macarons and ribbons. +30HP to all. */
 @font-face {
   font-family: "w95fa";
   font-display: swap;
@@ -222,7 +223,7 @@ footer {
 
 lite-youtube {
   border-radius: 6px;
-  margin-bottom: 4px;
+  margin-bottom: 12px;
   --lite-youtube-frame-shadow-visible: no;
 }
 
