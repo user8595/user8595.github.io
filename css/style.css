@@ -12,7 +12,10 @@
 @font-face {
   font-family: "SourceSerif";
   font-display: swap;
-  src: url("./fonts/SourceSerif4_18pt-Regular.ttf") format("truetype");
+  src: 
+    url("./fonts/SourceSerif4_18pt-Regular.ttf") format("truetype"),
+    url("./fonts/SourceSerif4_18pt-Regular.woff") format("woff"),
+    url("./fonts/SourceSerif4_18pt-Regular.woff2") format("woff2");
 }
 
 body {
