@@ -204,7 +204,7 @@ footer {
 
 .downloadButton {
   display: inline-block;
-  background-color: #444448;
+  background-color: rgba(68, 68, 72, 0.75);
   font-family: "w95fa";
   text-align: center;
   font-size: 18px;
