@@ -49,7 +49,7 @@ img {
 
 footer {
   text-align: center;
-  color: #555558;
+  color: #444448;
   font-size: 12px;
   line-height: 1.75em;
   font-family: "SourceSerif";
@@ -109,6 +109,11 @@ footer {
 
 .icon:active {
   color: #dddde2;
+}
+
+.icon-tabler-brand-x,
+.icon-tabler-brand-youtube {
+  margin-right: 7.5px;
 }
 
 .about {
