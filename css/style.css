@@ -116,6 +116,10 @@ footer {
   margin-right: 7.5px;
 }
 
+.icon-tabler-brand-tumblr {
+  margin-left: -2px;
+}
+
 .about {
   font-family: "SourceSerif";
   text-align: center;
