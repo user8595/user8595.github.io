@@ -211,6 +211,16 @@ footer {
   font-family: "w95fa";
 }
 
+.breadcrumb:hover {
+  transition-duration: 0.2s;
+}
+
+.breadcrumb:active {
+  background-color: #28282d;
+  transform: translateY(3px);
+  transition-duration: 0.2s;
+}
+
 .downloadButton {
   display: inline-block;
   background-color: rgba(68, 68, 72, 0.75);
