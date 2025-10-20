@@ -97,12 +97,20 @@ footer {
   margin-right: 7.5px;
 }
 
+.icon-tabler-brand-youtube {
+  margin-right: 4px;
+}
+
 .icon-tabler-brand-tumblr {
-  margin-left: -7.5px;
+  margin-left: -8.4px;
 }
 
 .icon-tabler-brand-bluesky {
   margin-left: -3.5px;
+}
+
+.icon-tabler-brand-pinterest {
+  margin-right: 3.2px;
 }
 
 .about {
