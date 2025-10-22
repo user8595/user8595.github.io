@@ -199,7 +199,7 @@ footer {
   font-size: 16px;
   background-color: #34343b;
   border-radius: 6px;
-  padding: 8px 10px;
+  padding: 10px 12px;
   text-decoration: none;
   font-family: "w95fa";
 }
@@ -247,8 +247,13 @@ lite-youtube {
     font-size: 24px;
   }
 
+  .topPage {
+    margin-inline: 5.3%;
+  }
+
   .list {
-    padding: 8px 32px 16px 32px;
+    padding: 8px 0px 16px 0px;
+    margin-inline: 36px;
   }
 
   .header1 {
@@ -289,9 +294,11 @@ lite-youtube {
   }
 }
 
+
 @media screen and (min-width: 960px) {
   .list {
-    padding: 8px 135px 16px;
+    padding: 8px 0px 16px;
+    margin-inline: 180px;
   }
 
   .pageContainer {
@@ -299,7 +306,7 @@ lite-youtube {
   }
 
   .topPage {
-    margin-inline: 12.5%;
+    margin-inline: 18.5%;
   }
 
   .profilePage {
@@ -307,10 +314,20 @@ lite-youtube {
   }
 
   .breadcrumb {
-    margin-inline: 20.7%;
+    margin-inline: 24.5%;
   }
 
   .margin {
-    margin-inline: 20.7%;
+    margin-inline: 24.5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .topPage {
+    margin-inline: 17.5%;
+  }
+
+  .pageContainer {
+    width: 51.5%;
   }
 }
