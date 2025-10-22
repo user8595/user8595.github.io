@@ -294,11 +294,10 @@ lite-youtube {
   }
 }
 
-
 @media screen and (min-width: 960px) {
   .list {
     padding: 8px 0px 16px;
-    margin-inline: 180px;
+    margin-inline: 17.75%;
   }
 
   .pageContainer {
@@ -329,5 +328,19 @@ lite-youtube {
 
   .pageContainer {
     width: 51.5%;
+  }
+
+  .list {
+    margin-inline: 17.5%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .topPage {
+    margin-inline: 17.5%;
+  }
+
+  .list {
+    margin-inline: 16.5%;
   }
 }
