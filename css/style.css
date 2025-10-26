@@ -292,9 +292,14 @@ lite-youtube {
     margin-inline: auto;
     width: 75%;
   }
+
+  lite-youtube {
+    width: 90%;
+    margin-inline: auto;
+  }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
   .list {
     padding: 8px 0px 16px;
     margin-inline: 17.75%;
@@ -319,6 +324,10 @@ lite-youtube {
   .margin {
     margin-inline: 24.5%;
   }
+
+  lite-youtube {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -333,10 +342,18 @@ lite-youtube {
   .list {
     margin-inline: 17.5%;
   }
+
+  lite-youtube {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .list {
     margin-inline: 16.5%;
+  }
+
+  lite-youtube {
+    width: 70%;
   }
 }
