@@ -222,7 +222,7 @@ footer {
   font-size: 18px;
   text-decoration: none;
   border-radius: 6px;
-  padding: 12px 36px;
+  padding: 12px 60px;
   margin-bottom: 16px;
 }
 
@@ -248,12 +248,12 @@ lite-youtube {
   }
 
   .topPage {
-    margin-inline: 5.3%;
+    margin-inline: 2.65%;
   }
 
   .list {
     padding: 8px 0px 16px 0px;
-    margin-inline: 36px;
+    margin-inline: 20px;
   }
 
   .header1 {
@@ -301,11 +301,11 @@ lite-youtube {
   }
 
   .pageContainer {
-    width: 58%;
+    width: 50.95%;
   }
 
   .topPage {
-    margin-inline: 18.5%;
+    margin-inline: 17.6%;
   }
 
   .profilePage {
@@ -336,10 +336,6 @@ lite-youtube {
 }
 
 @media screen and (min-width: 1600px) {
-  .topPage {
-    margin-inline: 17.5%;
-  }
-
   .list {
     margin-inline: 16.5%;
   }
