@@ -38,14 +38,46 @@ footer {
   margin-bottom: 12px;
 }
 
+.bCont {
+  display: block;
+  margin-inline: auto;
+}
+
+.bImg {
+  display: block;
+  margin-inline: auto;
+  width: 576px;
+  border-radius: 0;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .profile {
   display: block;
   margin: auto;
-  margin-top: 28px;
+  margin-top: -64px;
+  border-radius: 10px;
+  width: 110px;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .profilePage {
   border-radius: 4px;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .header {
@@ -120,11 +152,18 @@ footer {
   margin: 16px 16px 10px 16px;
 }
 
+.lCont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .list {
   /* background-color: #292929; */
   font-family: "w95fa";
   padding: 8px 20px 16px 20px;
   margin-bottom: -16px;
+  margin-inline: auto;
 }
 
 .content {
@@ -195,11 +234,11 @@ footer {
 }
 
 .breadcrumb {
-  margin-inline: 24px;
   font-size: 16px;
   background-color: #34343b;
   border-radius: 6px;
   padding: 10px 12px;
+  margin-left: -60px;
   text-decoration: none;
   font-family: "w95fa";
 }
@@ -223,15 +262,19 @@ footer {
   text-decoration: none;
   border-radius: 6px;
   padding: 12px 60px;
+  border: 3px solid #222224;
   margin-bottom: 16px;
 }
 
 .downloadButton:hover {
   transition-duration: 0.2s;
+  background-color: rgba(71, 71, 75, 1);
+  border: 3px solid #ccc;
 }
 
 .downloadButton:active {
   background-color: #27272a;
+  border: 3px solid #aaa;
   transform: translateY(3px);
   transition-duration: 0.2s;
 }
@@ -242,18 +285,39 @@ lite-youtube {
   --lite-youtube-frame-shadow-visible: no;
 }
 
+@media screen and (min-width: 440px) {
+  .profile {
+    width: 120px;
+  }
+}
+
 @media screen and (min-width: 576px) {
   h2 {
     font-size: 24px;
   }
 
+  .bImg {
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .topC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerPCont {
+    display: flex;
+    justify-content: center;
+  }
+
   .topPage {
-    margin-inline: 2.65%;
+    width: 576px;
   }
 
   .list {
     padding: 8px 0px 16px 0px;
-    margin-inline: 20px;
+    width: 576px;
   }
 
   .header1 {
@@ -268,12 +332,8 @@ lite-youtube {
   }
 
   .titlePage {
-    margin-inline: 10.6%;
     font-size: 28px;
-  }
-
-  .margin {
-    margin-inline: 12.5%;
+    margin-inline: 10.6%;
   }
 
   .aboutPage {
@@ -284,13 +344,9 @@ lite-youtube {
     margin-left: 10.65%;
   }
 
-  .breadcrumb {
-    margin-inline: 12.5%;
-  }
-
   .pageContainer {
     margin-inline: auto;
-    width: 75%;
+    width: 452px;
   }
 
   lite-youtube {
@@ -302,23 +358,10 @@ lite-youtube {
 @media screen and (min-width: 800px) {
   .list {
     padding: 8px 0px 16px;
-    margin-inline: 17.75%;
-  }
-
-  .pageContainer {
-    width: 50.95%;
-  }
-
-  .topPage {
-    margin-inline: 17.6%;
   }
 
   .profilePage {
     margin-left: 11%;
-  }
-
-  .breadcrumb {
-    margin-inline: 24.5%;
   }
 
   .margin {
@@ -331,16 +374,8 @@ lite-youtube {
 }
 
 @media screen and (min-width: 1000px) {
-  .topPage {
-    margin-inline: 17.5%;
-  }
-
-  .pageContainer {
-    width: 51.5%;
-  }
-
-  .list {
-    margin-inline: 17.5%;
+  .bCont {
+    width: 576px;
   }
 
   lite-youtube {
@@ -349,10 +384,6 @@ lite-youtube {
 }
 
 @media screen and (min-width: 1600px) {
-  .list {
-    margin-inline: 16.5%;
-  }
-
   lite-youtube {
     width: 70%;
   }
