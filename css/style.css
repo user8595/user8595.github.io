@@ -199,6 +199,12 @@ footer {
   font-size: 32px;
 }
 
+.pTitleMargin {
+  margin-top: 28px;
+  margin-bottom: -30px;
+  margin-inline: 62px
+}
+
 .aboutPage {
   font-family: SourceSerif;
   margin: 24px 0px;
@@ -336,11 +342,6 @@ lite-youtube {
     margin-inline: auto;
     width: 452px;
   }
-
-  lite-youtube {
-    width: 90%;
-    margin-inline: auto;
-  }
 }
 
 @media screen and (min-width: 800px) {
@@ -355,24 +356,28 @@ lite-youtube {
   .margin {
     margin-inline: 24.5%;
   }
-
-  lite-youtube {
-    width: 80%;
-  }
 }
 
-@media screen and (min-width: 1000px) {
-  .bCont {
-    width: 576px;
+@media screen and (min-width: 1280px) {
+  .bImg {
+    width: 760px;
   }
 
-  lite-youtube {
-    width: 80%;
+  .topPage {
+    width: 760px;
   }
-}
 
-@media screen and (min-width: 1600px) {
-  lite-youtube {
-    width: 70%;
+  .pTitleMargin {
+    margin-top: 28px;
+    margin-bottom: -30px;
+    margin-inline: 86px
+  }
+
+  .list {
+    width: 760px;
+  }
+
+  .pageContainer {
+    width: 595px;
   }
 }
