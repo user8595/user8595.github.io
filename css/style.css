@@ -48,6 +48,7 @@ footer {
   margin-inline: auto;
   width: 576px;
   border-radius: 0;
+  border-bottom: 3.5px solid #5f3338;
   user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
@@ -56,12 +57,23 @@ footer {
   -ms-user-select: none;
 }
 
+.bImg:hover {
+  transition-duration: 0.2s;
+  border-bottom: 3.5px solid #9f5348;
+}
+
 .profile {
   display: block;
   margin: auto;
   margin-top: -64px;
   border-radius: 10px;
   width: 110px;
+  outline: 3.5px solid #222224;
+}
+
+.profile:hover {
+  transition-duration: 0.2s;
+  outline: 3.5px solid #9ebabc;
 }
 
 .profilePage {
@@ -109,7 +121,7 @@ footer {
 }
 
 .icon:active {
-  color: #dddde2;
+  color: #aaaab2;
 }
 
 .icon-tabler-brand-x,
@@ -201,8 +213,6 @@ footer {
 
 .pTitleMargin {
   margin-top: 28px;
-  margin-bottom: -30px;
-  margin-inline: 62px
 }
 
 .aboutPage {
@@ -305,8 +315,13 @@ lite-youtube {
     justify-content: center;
   }
 
+  .pTitleMargin {
+    margin-bottom: -30px;
+    margin-inline: 18px;
+  }
+
   .topPage {
-    width: 576px;
+    width: 480px;
   }
 
   .list {
@@ -327,15 +342,15 @@ lite-youtube {
 
   .titlePage {
     font-size: 28px;
-    margin-inline: 10.6%;
+    margin-inline: 3.4%;
   }
 
   .aboutPage {
-    margin-inline: 10.6%;
+    margin-inline: 3.4%;
   }
 
   .profilePage {
-    margin-left: 10.65%;
+    margin-left: 3.4%;
   }
 
   .pageContainer {
@@ -347,10 +362,6 @@ lite-youtube {
 @media screen and (min-width: 800px) {
   .list {
     padding: 8px 0px 16px;
-  }
-
-  .profilePage {
-    margin-left: 11%;
   }
 
   .margin {
@@ -367,6 +378,14 @@ lite-youtube {
     width: 760px;
   }
 
+  .titlePage {
+    margin-inline: 10.85%;
+  }
+
+  .aboutPage {
+    margin-inline: 10.85%;
+  }
+
   .pTitleMargin {
     margin-top: 28px;
     margin-bottom: -30px;
@@ -375,6 +394,10 @@ lite-youtube {
 
   .list {
     width: 760px;
+  }
+
+  .profilePage {
+    margin-left: 10.85%;
   }
 
   .pageContainer {
