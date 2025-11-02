@@ -68,12 +68,12 @@ footer {
   margin-top: -64px;
   border-radius: 10px;
   width: 110px;
-  outline: 3.5px solid #222224;
+  outline: 3.5px solid #496968;
 }
 
 .profile:hover {
   transition-duration: 0.2s;
-  outline: 3.5px solid #9ebabc;
+  outline: 3.5px solid #71bbb5;
 }
 
 .profilePage {
