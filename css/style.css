@@ -130,7 +130,17 @@ footer {
 }
 
 .icon-tabler-brand-youtube {
+  margin-left: -0.25px;
   margin-right: 4px;
+}
+
+.icon-tabler-cube {
+  margin-right: 7.5px;
+}
+
+.icon-tabler-brand-github {
+  margin-left: 2px;
+  margin-right: 3.1px;
 }
 
 .icon-tabler-brand-tumblr {
@@ -138,11 +148,12 @@ footer {
 }
 
 .icon-tabler-brand-bluesky {
-  margin-left: -3.5px;
+  margin-left: -3px;
+  margin-right: 7px;
 }
 
 .icon-tabler-brand-pinterest {
-  margin-right: 3.2px;
+  margin-right: 1.75px;
 }
 
 .about {
