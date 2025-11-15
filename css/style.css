@@ -78,6 +78,16 @@ footer {
 
 .profilePage {
   border-radius: 4px;
+  outline: 3.5px solid #222224;
+}
+
+.profilePage:hover {
+  transition-duration: 0.2s;
+  outline: 3.5px solid #496968;
+}
+
+.profilePage:active {
+  outline: 3.5px solid #2e3f3e;
 }
 
 .header {
