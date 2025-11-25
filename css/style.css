@@ -1,8 +1,13 @@
 /* "SpagettiCode" - Spaghetti woven by master coders, made of macarons and ribbons. +30HP to all. */
+:root {
+  --bg-col: #222224;
+  --text: #eeeef2;
+  --content: #34343b;
+}
 body {
   margin: 0;
-  background-color: #222224;
-  color: #eeeef2;
+  background-color: var(--bg-col); 
+  color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -78,7 +83,7 @@ footer {
 
 .profilePage {
   border-radius: 4px;
-  outline: 3.5px solid #222224;
+  outline: 3.5px solid var(--bg-col);
 }
 
 .profilePage:hover {
@@ -123,7 +128,7 @@ footer {
 }
 
 .icon {
-  color: #eeeef2;
+  color: var(--text);
   width: 32px;
   height: 32px;
   stroke-width: 1.75;
@@ -190,7 +195,7 @@ footer {
 .content {
   font-family: "SourceSerif";
   font-size: 14px;
-  background-color: #34343b;
+  background-color: var(--content);
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 8px;
@@ -262,7 +267,7 @@ footer {
   position: absolute;
   top: 100px;
   font-size: 16px;
-  background-color: #34343b;
+  background-color: var(--content);
   border-radius: 6px;
   padding: 10px 12px;
   margin-left: -60px;
@@ -289,7 +294,7 @@ footer {
   text-decoration: none;
   border-radius: 6px;
   padding: 12px 60px;
-  border: 3px solid #222224;
+  border: 3px solid var(--bg-col);
   margin-bottom: 16px;
 }
 
