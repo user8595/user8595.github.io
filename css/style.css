@@ -3,6 +3,7 @@
   --bg-col: #222224;
   --text: #eeeef2;
   --content: #34343b;
+  --footerCol: #66666b;
 }
 body {
   margin: 0;
@@ -33,9 +34,13 @@ img {
   max-width: 100%;
 }
 
+li {
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
-  color: #66666b;
+  color: var(--footerCol);
   font-size: 12px;
   line-height: 1.75em;
   font-family: "SourceSerif";
@@ -223,6 +228,10 @@ footer {
   height: auto;
 }
 
+.secondaryTxt {
+  color: var(--footerCol);
+}
+
 .cover {
   margin-bottom: 16px;
 }
@@ -230,6 +239,12 @@ footer {
 .footer {
   color: inherit;
   text-decoration: underline inherit;
+}
+
+.listTitle {
+  font-family: "w95fa";
+  font-weight: normal;
+  margin-left: 8px;
 }
 
 .titlePage {
@@ -287,7 +302,7 @@ footer {
 
 .downloadButton {
   display: inline-block;
-  background-color: rgba(68, 68, 72, 0.75);
+  background-color: rgba(68, 68, 80, 0.65);
   font-family: "w95fa";
   text-align: center;
   font-size: 18px;
@@ -300,12 +315,12 @@ footer {
 
 .downloadButton:hover {
   transition-duration: 0.2s;
-  background-color: rgba(71, 71, 75, 1);
+  background-color: rgba(71, 71, 83, 1);
   border: 3px solid #ccc;
 }
 
 .downloadButton:active {
-  background-color: #27272a;
+  background-color: #37373f;
   border: 3px solid #aaa;
   transform: translateY(3px);
   transition-duration: 0.2s;
@@ -315,6 +330,20 @@ lite-youtube {
   border-radius: 6px;
   margin-bottom: 12px;
   --lite-youtube-frame-shadow-visible: no;
+}
+
+.lite-youtube-fallback {
+  display: block;
+  font-family: "w95fa";
+  margin-bottom: 12px;
+  background-color: var(--content);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+lite-youtube::part(playButton) {
+  
 }
 
 @media screen and (min-width: 440px) {
@@ -423,7 +452,7 @@ lite-youtube {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 960px) {
   .bImg {
     width: 760px;
   }
