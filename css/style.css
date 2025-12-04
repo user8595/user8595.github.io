@@ -342,10 +342,6 @@ lite-youtube {
   border-radius: 8px;
 }
 
-lite-youtube::part(playButton) {
-  
-}
-
 @media screen and (min-width: 440px) {
   .profile {
     width: 120px;
