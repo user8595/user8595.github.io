@@ -93,11 +93,11 @@ footer {
 
 .profilePage:hover {
   transition-duration: 0.2s;
-  outline: 3.5px solid #496968;
+  outline: 3.5px solid #648a88;
 }
 
 .profilePage:active {
-  outline: 3.5px solid #2e3f3e;
+  outline: 3.5px solid #496968;
 }
 
 .header {
@@ -303,12 +303,16 @@ footer {
 .downloadButton {
   display: inline-block;
   background-color: rgba(68, 68, 80, 0.65);
+  background-image: url("/img/svg/obs-plain.svg");
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: 170px;
   font-family: "w95fa";
   text-align: center;
   font-size: 18px;
   text-decoration: none;
   border-radius: 6px;
-  padding: 12px 60px;
+  padding: 12px 25% 12px 25%;
   border: 3px solid var(--bg-col);
   margin-bottom: 16px;
 }
