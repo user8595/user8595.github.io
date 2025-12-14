@@ -330,6 +330,29 @@ footer {
   transition-duration: 0.2s;
 }
 
+.missingFrame {
+  color: var(--footerCol);;
+  font-family: 'w95fa';
+  background-color: black;
+  border: white 3px solid;
+  margin: 24px 24px;
+  padding: 16px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.missingHeader {
+  margin: 24px;
+}
+
+.missingLink {
+  color: white
+}
+
+.missingLink:hover {
+  color: yellow;
+}
+
 lite-youtube {
   border-radius: 6px;
   margin-bottom: 12px;
