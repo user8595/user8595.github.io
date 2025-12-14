@@ -338,7 +338,7 @@ footer {
   border: white 3px solid;
   margin: -24px auto 24px auto;
   padding: 16px;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 26px;
 }
 
@@ -425,6 +425,7 @@ lite-youtube {
 
   .missingFrame {
     width: 400px;
+    line-height: 26px;
   }
 
   .hrCust {
