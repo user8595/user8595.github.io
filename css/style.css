@@ -333,16 +333,13 @@ footer {
 .missingFrame {
   color: var(--footerCol);;
   font-family: 'w95fa';
+  width: 75%;
   background-color: black;
   border: white 3px solid;
-  margin: 24px 24px;
+  margin: -24px auto 24px auto;
   padding: 16px;
   font-size: 20px;
   line-height: 26px;
-}
-
-.missingHeader {
-  margin: 24px;
 }
 
 .missingLink {
@@ -351,6 +348,16 @@ footer {
 
 .missingLink:hover {
   color: yellow;
+}
+
+.hrCust {
+  background-color: var(--content);
+  padding: 2px;
+  margin-top: 0px;
+  margin-bottom: 48px;
+  margin-inline: auto;
+  width: 88.5%;
+  border: none;
 }
 
 lite-youtube {
@@ -414,6 +421,15 @@ lite-youtube {
 
   .pTitleMargin {
     margin-bottom: -24px;
+  }
+
+  .missingFrame {
+    width: 400px;
+  }
+
+  .hrCust {
+    margin-top: -24px;
+    width: 430px;
   }
 }
 
@@ -500,5 +516,13 @@ lite-youtube {
 
   .pageContainer {
     width: 595px;
+  }
+  
+  .missingFrame {
+    width: 560px;
+  }
+
+  .hrCust {
+    width: 580px;
   }
 }
