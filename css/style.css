@@ -7,7 +7,7 @@
 }
 body {
   margin: 0;
-  background-color: var(--bg-col); 
+  background-color: var(--bg-col);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -145,35 +145,16 @@ footer {
 }
 
 .icon-tabler-brand-x,
-.icon-tabler-brand-youtube {
-  margin-right: 7.5px;
-}
-
-.icon-tabler-brand-youtube {
-  margin-left: -0.25px;
+.icon-tabler-brand-bluesky {
   margin-right: 4px;
 }
 
-.icon-tabler-cube {
-  margin-right: 7.5px;
-}
-
 .icon-tabler-brand-github {
-  margin-left: 2px;
-  margin-right: 3.1px;
+  margin-right: 1.2px;
 }
 
-.icon-tabler-brand-tumblr {
-  margin-left: -8.4px;
-}
-
-.icon-tabler-brand-bluesky {
-  margin-left: -3px;
-  margin-right: 7px;
-}
-
-.icon-tabler-brand-pinterest {
-  margin-right: 1.75px;
+.icon-tabler-dots {
+  margin-left: -2.4px;
 }
 
 .about {
@@ -331,8 +312,8 @@ footer {
 }
 
 .missingFrame {
-  color: var(--footerCol);;
-  font-family: 'w95fa';
+  color: var(--footerCol);
+  font-family: "w95fa";
   width: 75%;
   background-color: black;
   border: white 3px solid;
@@ -343,11 +324,91 @@ footer {
 }
 
 .missingLink {
-  color: white
+  color: white;
 }
 
 .missingLink:hover {
   color: yellow;
+}
+
+.linkPage {
+  font-family: "w95fa";
+  font-size: 20px;
+  padding: 12px;
+  margin-inline: auto;
+  margin-bottom: -48px;
+  width: 89%;
+}
+
+.linkStyle {
+  display: flex;
+  margin-top: -28px;
+  margin-bottom: 48px;
+  align-items: center;
+  padding: 24px 24px;
+  background-color: var(--content);
+  text-decoration: none;
+  outline: none;
+  border-radius: 12px;
+  border-bottom: 4px solid var(--content)
+}
+
+.linkStyle:hover {
+  transition-duration: 0.2s;
+}
+
+.linkStyle:active {
+  background-color: #27272a;
+  transform: translateY(3px);
+  transition-duration: 0.2s;
+}
+
+.linkPinterest {
+  background-image: url("/img/svg/brand-pinterest.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkPinterest:hover {
+  border-bottom: 4px solid #ff5555;
+}
+
+.linkPinterest:active {
+  transition-duration: 0.2s;
+  border-bottom: 4px solid #ff555555;
+}
+
+.linkTumblr {
+  background-image: url("/img/svg/brand-tumblr.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;  
+}
+
+.linkTumblr:hover {
+  border-bottom: 4px solid #35465C;
+}
+
+.linkTumblr:active {
+  transition-duration: 0.2s;
+  border-bottom: 4px solid #26313f;
+}
+
+.linkSketchfab {
+  background-image: url("/img/svg/cube.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkSketchfab:hover {
+  border-bottom: 4px solid #1CAAD9;
+}
+
+.linkSketchfab:active {
+  transition-duration: 0.2s;
+  border-bottom: 4px solid #0d5670;
 }
 
 .hrCust {
@@ -405,10 +466,6 @@ lite-youtube {
     width: 440px;
   }
 
-  .header1 {
-    margin-inline: 10.5%;
-  }
-
   .content {
     margin-inline: auto;
     margin-bottom: 12px;
@@ -426,6 +483,10 @@ lite-youtube {
   .missingFrame {
     width: 400px;
     line-height: 26px;
+  }
+
+  .linkPage {
+    width: 440px;
   }
 
   .hrCust {
@@ -462,6 +523,10 @@ lite-youtube {
 
   .pfpMargin {
     margin-left: 3.4%;
+  }
+
+  .header1 {
+    margin-left: 10%;
   }
 
   .list {
@@ -504,7 +569,7 @@ lite-youtube {
   }
 
   .pTitleMargin {
-    margin-inline: 86px
+    margin-inline: 86px;
   }
 
   .list {
@@ -518,7 +583,7 @@ lite-youtube {
   .pageContainer {
     width: 595px;
   }
-  
+
   .missingFrame {
     width: 560px;
   }
