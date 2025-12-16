@@ -411,6 +411,25 @@ footer {
   border-bottom: 4px solid #0d5670;
 }
 
+.osulogo {
+  margin-right: 8px;
+}
+
+.linkosu {
+  background-image: url("/img/svg/osu.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkosu:hover {
+  border-bottom: 4px solid #F26BA7;
+}
+
+.linkosu:active {
+  border-bottom: 4px solid #a15376;
+}
+
 .hrCust {
   background-color: var(--content);
   padding: 2px;
@@ -586,6 +605,10 @@ lite-youtube {
 
   .missingFrame {
     width: 560px;
+  }
+
+  .linkPage {
+    width: 590px;
   }
 
   .hrCust {
