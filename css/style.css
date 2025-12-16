@@ -350,7 +350,7 @@ footer {
   text-decoration: none;
   outline: none;
   border-radius: 12px;
-  border-bottom: 4px solid var(--content)
+  border-bottom: 4px solid var(--content);
 }
 
 .linkStyle:hover {
@@ -383,11 +383,11 @@ footer {
   background-image: url("/img/svg/brand-tumblr.svg");
   background-repeat: no-repeat;
   background-position: 10%;
-  background-size: 140px;  
+  background-size: 140px;
 }
 
 .linkTumblr:hover {
-  border-bottom: 4px solid #35465C;
+  border-bottom: 4px solid #35465c;
 }
 
 .linkTumblr:active {
@@ -403,7 +403,7 @@ footer {
 }
 
 .linkSketchfab:hover {
-  border-bottom: 4px solid #1CAAD9;
+  border-bottom: 4px solid #1caad9;
 }
 
 .linkSketchfab:active {
@@ -423,7 +423,7 @@ footer {
 }
 
 .linkosu:hover {
-  border-bottom: 4px solid #F26BA7;
+  border-bottom: 4px solid #f26ba7;
 }
 
 .linkosu:active {
