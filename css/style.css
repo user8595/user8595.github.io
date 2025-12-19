@@ -89,6 +89,7 @@ footer {
 .profilePage {
   border-radius: 4px;
   outline: 3.5px solid var(--bg-col);
+  transition-duration: 0.2s;
 }
 
 .profilePage:hover {
@@ -97,6 +98,7 @@ footer {
 }
 
 .profilePage:active {
+  transition-duration: 0.2s;
   outline: 3.5px solid #496968;
 }
 
