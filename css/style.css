@@ -4,6 +4,7 @@
   --text: #eeeef2;
   --content: #34343b;
   --footerCol: #99999b;
+  --navbar: #1a1a1c;
 }
 body {
   margin: 0;
@@ -86,9 +87,24 @@ footer {
   outline: 3.5px solid #71bbb5;
 }
 
+.navbar {
+  background-color: var(--navbar);
+  border-bottom: 4px solid #2f2f36;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.socialNav {
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: 3.4%;
+}
+
 .profilePage {
   border-radius: 4px;
-  outline: 3.5px solid var(--bg-col);
+  outline: 3.5px solid var(--navbar);
+  margin-top: 4px;
   transition-duration: 0.2s;
 }
 
@@ -102,6 +118,10 @@ footer {
   outline: 3.5px solid #496968;
 }
 
+.pfpMargin {
+  margin-left: 3.4%;
+}
+
 .header {
   margin: 16px;
   text-align: center;
@@ -111,13 +131,11 @@ footer {
 }
 
 .headerPage {
-  position: absolute;
   text-decoration: none;
   color: inherit;
-  top: 36px;
   margin-left: 12px;
   font-family: "w95fa";
-  font-size: 32px;
+  font-size: 22px;
 }
 
 .header1 {
@@ -236,7 +254,7 @@ footer {
 }
 
 .pTitleMargin {
-  margin-top: 72px;
+  margin-top: 32px;
 }
 
 .aboutPage {
@@ -262,13 +280,10 @@ footer {
 }
 
 .breadcrumb {
-  position: absolute;
-  top: 100px;
   font-size: 16px;
   background-color: var(--content);
   border-radius: 6px;
   padding: 10px 12px;
-  margin-left: -60px;
   text-decoration: none;
   font-family: "w95fa";
 }
@@ -470,6 +485,10 @@ lite-youtube {
   .bImg {
     border-radius: 0px 0px 4px 4px;
   }
+  
+  .topC {
+    margin-top: -20px;
+  }
 
   .topC {
     display: flex;
@@ -524,6 +543,18 @@ lite-youtube {
   .titlePage {
     margin-inline: 3.4%;
   }
+  
+  .pfpMargin {
+    margin-left: 5.85%;
+  }
+
+  .socialNav {
+    margin-right: 5.85%;
+  }
+
+  .breadcrumb {
+    margin-inline: 2.2%;
+  }
 
   .content {
     width: 75%;
@@ -540,10 +571,6 @@ lite-youtube {
 
   .topPage {
     width: 480px;
-  }
-
-  .pfpMargin {
-    margin-left: 3.4%;
   }
 
   .header1 {
@@ -567,6 +594,14 @@ lite-youtube {
     padding: 8px 0px 16px;
   }
 
+  .pfpMargin {
+    margin-left: 7.85%;
+  }
+
+  .socialNav {
+    margin-right: 7.85%;
+  }
+
   .margin {
     margin-inline: 24.5%;
   }
@@ -585,6 +620,14 @@ lite-youtube {
     margin-inline: 10.85%;
   }
 
+  .pfpMargin {
+    margin-left: 10.85%;
+  }
+
+  .socialNav {
+    margin-right: 10.85%;
+  }
+
   .aboutPage {
     margin-inline: 10.85%;
   }
@@ -597,12 +640,12 @@ lite-youtube {
     width: 760px;
   }
 
-  .pfpMargin {
-    margin-left: 10.85%;
-  }
-
   .pageContainer {
     width: 595px;
+  }
+
+  .breadcrumb {
+    margin-inline: 10.5%;
   }
 
   .missingFrame {
