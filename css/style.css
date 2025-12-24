@@ -97,9 +97,13 @@ footer {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   border-bottom: 4px solid #2f2f36;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   padding: 10px;
+  /* duct tape */
+  z-index: 5000;
 }
 
 .socialNav {
@@ -667,4 +671,8 @@ lite-youtube {
   .hrCust {
     width: 580px;
   }
+}
+
+#loadOverlay {
+  display: none;
 }
