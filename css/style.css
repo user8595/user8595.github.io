@@ -89,6 +89,13 @@ footer {
 
 .navbar {
   background-color: var(--navbar);
+  background-image: url("/img/banner-pixel.png");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
   border-bottom: 4px solid #2f2f36;
   display: flex;
   align-items: center;
@@ -104,6 +111,7 @@ footer {
 .profilePage {
   border-radius: 4px;
   outline: 3.5px solid var(--navbar);
+  image-rendering:auto;
   margin-top: 4px;
   transition-duration: 0.2s;
 }
