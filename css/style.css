@@ -6,6 +6,7 @@
   --footerCol: #99999b;
   --navbar: #1a1a1c;
 }
+
 body {
   margin: 0;
   background-color: var(--bg-col);
@@ -97,11 +98,14 @@ footer {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   border-bottom: 4px solid #2f2f36;
-  position: sticky;
+  position: none;
   top: 0;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   padding: 10px;
+  transition: top 0.1s;
 }
 
 .socialNav {
@@ -113,7 +117,7 @@ footer {
 .profilePage {
   border-radius: 4px;
   outline: 3.5px solid var(--navbar);
-  image-rendering:auto;
+  image-rendering: auto;
   margin-top: 4px;
   transition-duration: 0.2s;
 }
@@ -496,7 +500,7 @@ lite-youtube {
   .bImg {
     border-radius: 0px 0px 4px 4px;
   }
-  
+
   .topC {
     margin-top: -20px;
   }
@@ -554,7 +558,7 @@ lite-youtube {
   .titlePage {
     margin-inline: 3.4%;
   }
-  
+
   .pfpMargin {
     margin-left: 5.85%;
   }
