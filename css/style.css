@@ -102,8 +102,6 @@ footer {
   display: flex;
   align-items: center;
   padding: 10px;
-  /* duct tape */
-  z-index: 5000;
 }
 
 .socialNav {
@@ -473,6 +471,7 @@ lite-youtube {
   border-radius: 6px;
   margin-bottom: 12px;
   --lite-youtube-frame-shadow-visible: no;
+  z-index: -1;
 }
 
 .lite-youtube-fallback {
