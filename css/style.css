@@ -106,6 +106,7 @@ footer {
   align-items: center;
   padding: 10px;
   transition: top 0.3s;
+  z-index: 5;
 }
 
 .socialNav {
