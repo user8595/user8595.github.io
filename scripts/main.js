@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         navB.style.top = `-${navH}px`;
       }
       screenYOff = currScrY;
-    }, 45);
+    }, 175);
   });
   navB.style.position = "sticky";
 });
