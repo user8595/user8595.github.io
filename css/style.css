@@ -106,7 +106,7 @@ footer {
   align-items: center;
   padding: 10px;
   transition: top 0.3s;
-  z-index: 5;
+  z-index: 100;
 }
 
 .socialNav {
@@ -324,8 +324,10 @@ footer {
   text-align: center;
   font-size: 18px;
   text-decoration: none;
+  width: 100%;
+  padding: 12px 0px 12px 0px;
+  box-sizing: border-box;
   border-radius: 6px;
-  padding: 12px 25% 12px 25%;
   border: 3px solid var(--bg-col);
   margin-bottom: 16px;
 }
@@ -476,7 +478,6 @@ lite-youtube {
   border-radius: 6px;
   margin-bottom: 12px;
   --lite-youtube-frame-shadow-visible: no;
-  z-index: -1;
 }
 
 .lite-youtube-fallback {
