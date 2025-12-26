@@ -199,12 +199,6 @@ footer {
   margin: 16px 16px 10px 16px;
 }
 
-.lCont {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 .list {
   /* background-color: #292929; */
   font-family: "w95fa";
