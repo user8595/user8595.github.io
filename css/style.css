@@ -439,6 +439,27 @@ footer {
   border-bottom: 4px solid #0d5670;
 }
 
+.linkra {
+  background-image: url("/img/svg/device-gamepad-3.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkra:hover {
+  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+    linear-gradient(var(--content), var(--content)) padding-box,
+    linear-gradient(to right, red, blue) border-box;
+  border-bottom: 4px solid transparent;
+}
+
+.linkra:active {
+  transition-duration: 0.2s;
+  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+    linear-gradient(var(--content), var(--content)) padding-box,
+    linear-gradient(to right, #aa0000, #0000aa) border-box;
+}
+
 .osulogo {
   margin-right: 8px;
 }
