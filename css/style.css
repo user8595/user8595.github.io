@@ -188,6 +188,10 @@ footer {
   margin-right: 1.2px;
 }
 
+.icon-tabler-device-gamepad-3 {
+  margin-left: -3px;
+}
+
 .icon-tabler-dots {
   margin-left: -2.4px;
 }
@@ -391,6 +395,7 @@ footer {
   transition-duration: 0.2s;
 }
 
+/* other acc links */
 .linkPinterest {
   background-image: url("/img/svg/brand-pinterest.svg");
   background-repeat: no-repeat;
@@ -439,31 +444,7 @@ footer {
   border-bottom: 4px solid #0d5670;
 }
 
-.linkra {
-  background-image: url("/img/svg/device-gamepad-3.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
-}
-
-.linkra:hover {
-  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
-    linear-gradient(var(--content), var(--content)) padding-box,
-    linear-gradient(to right, red, blue) border-box;
-  border-bottom: 4px solid transparent;
-}
-
-.linkra:active {
-  transition-duration: 0.2s;
-  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
-    linear-gradient(var(--content), var(--content)) padding-box,
-    linear-gradient(to right, #aa0000, #0000aa) border-box;
-}
-
-.osulogo {
-  margin-right: 8px;
-}
-
+/* game links */
 .linkosu {
   background-image: url("/img/svg/osu.svg");
   background-repeat: no-repeat;
@@ -478,6 +459,72 @@ footer {
 .linkosu:active {
   border-bottom: 4px solid #a15376;
 }
+.linkra {
+  background-image: url("/img/svg/device-gamepad-3.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkra:hover {
+  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+    linear-gradient(var(--content), var(--content)) padding-box,
+    linear-gradient(
+        to right,
+        #89b4fa 0%,
+        #89b4fa 15%,
+        #c28ef1 50%,
+        #f9e2af 75%,
+        #f9e2af
+      )
+      border-box;
+  border-bottom: 4px solid transparent;
+}
+
+.linkra:active {
+  transition-duration: 0.2s;
+  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+    linear-gradient(var(--content), var(--content)) padding-box,
+    linear-gradient(
+        to right,
+        #4970af 0%,
+        #4970af 15%,
+        #946db9 50%,
+        #bea672 75%,
+        #bea672 100%
+      )
+      border-box;
+}
+
+.linksteam {
+  background-image: url("/img/svg/brand-steam.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linksteam:hover {
+  border-bottom: 4px solid #2c5370;
+}
+
+.linksteam:active {
+  border-bottom: 4px solid #233e53;
+  transition-duration: 0.2s;
+}
+
+.linktetrio:hover {
+  border-bottom: 4px solid #7e5fe3;
+}
+
+.linktetrio:active {
+  border-bottom: 4px solid #56419e;
+  transition-duration: 0.2s;
+}
+
+.gamelogo {
+  margin-right: 8px;
+}
+/* end of other acc links */
 
 .hrCust {
   background-color: var(--content);
