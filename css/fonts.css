@@ -1,8 +1,7 @@
 @font-face {
   font-family: "w95fa";
   font-display: swap;
-  src:
-    url("./fonts/W95FA.ttf") format("truetype"),
+  src: url("./fonts/W95FA.ttf") format("truetype"),
     url("./fonts/W95FA.otf") format("opentype"),
     url("./fonts/w95fa.woff") format("woff"),
     url("./fonts/w95fa.woff2") format("woff2");
@@ -11,8 +10,7 @@
 @font-face {
   font-family: "SourceSerif";
   font-display: swap;
-  src:
-    url("./fonts/SourceSerif4_18pt-Regular.ttf") format("truetype"),
+  src: url("./fonts/SourceSerif4_18pt-Regular.ttf") format("truetype"),
     url("./fonts/SourceSerif4_18pt-Regular.woff") format("woff"),
     url("./fonts/SourceSerif4_18pt-Regular.woff2") format("woff2");
 }
