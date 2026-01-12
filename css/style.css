@@ -397,17 +397,16 @@ footer {
 
 .linkStyle:focus-visible {
   outline: 2px solid #fab387;
-  transition-duration: 0s;
+  transition: outline 0s;
 }
 
 .linkStyle:hover {
-  transition: border-bottom 0.2s, transform 0.2s;
+  transition: border-bottom 0.2s, transform 0.2s, background-color 0.2s, outline 0s;
 }
 
 .linkStyle:active {
   background-color: var(--contentHover);
   transform: translateY(3px);
-  transition-duration: 0.2s;
 }
 
 /* other acc links */
@@ -423,7 +422,6 @@ footer {
 }
 
 .linkPinterest:active {
-  transition-duration: 0.2s;
   border-bottom: 4px solid #ff555555;
 }
 
@@ -439,7 +437,6 @@ footer {
 }
 
 .linkTumblr:active {
-  transition-duration: 0.2s;
   border-bottom: 4px solid #26313f;
 }
 
@@ -455,7 +452,6 @@ footer {
 }
 
 .linkSketchfab:active {
-  transition-duration: 0.2s;
   border-bottom: 4px solid #0d5670;
 }
 
@@ -514,7 +510,6 @@ footer {
 }
 
 .linkra:active {
-  transition-duration: 0.2s;
   background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(var(--content), var(--content)) padding-box,
     linear-gradient(
@@ -545,7 +540,6 @@ footer {
 
 .linksteam:active {
   border-bottom: 4px solid #233e53;
-  transition-duration: 0.2s;
 }
 
 .linktetrio:hover {
@@ -554,7 +548,6 @@ footer {
 
 .linktetrio:active {
   border-bottom: 4px solid #56419e;
-  transition-duration: 0.2s;
 }
 
 .gamelogo {
