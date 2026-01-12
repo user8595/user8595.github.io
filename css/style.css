@@ -471,6 +471,21 @@ footer {
   border-bottom: 4px solid #a15376;
 }
 
+.linketterna {
+  background-image: url("/img/svg/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linketterna:hover {
+  border-bottom: 4px solid #8f60f6;
+}
+
+.linketterna:active {
+  border-bottom: 4px solid #604894;
+}
+
 .linkra {
   position: relative;
   overflow: hidden;
@@ -535,7 +550,7 @@ footer {
 }
 
 .linksteam:hover {
-  border-bottom: 4px solid #2c5370;
+  border-bottom: 4px solid #35688f;
 }
 
 .linksteam:active {
@@ -543,11 +558,11 @@ footer {
 }
 
 .linktetrio:hover {
-  border-bottom: 4px solid #7e5fe3;
+  border-bottom: 4px solid #15919D;
 }
 
 .linktetrio:active {
-  border-bottom: 4px solid #56419e;
+  border-bottom: 4px solid #1e686e;
 }
 
 .gamelogo {
