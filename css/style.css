@@ -3,6 +3,7 @@
   --bg-col: #222224;
   --text: #eeeef2;
   --content: #34343b;
+  --contentHover: #27272a;
   --footerCol: #99999b;
   --navbar: #1a1a1c;
 }
@@ -226,7 +227,7 @@ footer {
 }
 
 .content:active {
-  background-color: #27272a;
+  background-color: var(--contentHover);
   transform: translateY(3px);
   transition-duration: 0.2s;
 }
@@ -344,15 +345,22 @@ footer {
 }
 
 .missingFrame {
+  position: relative;
   color: var(--footerCol);
   font-family: "w95fa";
   width: 75%;
   background-color: black;
   border: white 3px solid;
   margin: -24px auto 24px auto;
-  padding: 16px;
+  padding: 16px 8px 16px 24px;
   font-size: 19px;
   line-height: 26px;
+}
+
+.missingFrame::before {
+  content: "*";
+  position: absolute;
+  left: 2.75%;
 }
 
 .missingLink {
@@ -383,14 +391,21 @@ footer {
   outline: none;
   border-radius: 12px;
   border-bottom: 4px solid var(--content);
+  outline: 2px solid transparent;
+  outline-offset: 4px;
+}
+
+.linkStyle:focus-visible {
+  outline: 2px solid #fab387;
+  transition-duration: 0s;
 }
 
 .linkStyle:hover {
-  transition-duration: 0.2s;
+  transition: border-bottom 0.2s, transform 0.2s;
 }
 
 .linkStyle:active {
-  background-color: #27272a;
+  background-color: var(--contentHover);
   transform: translateY(3px);
   transition-duration: 0.2s;
 }
@@ -459,11 +474,28 @@ footer {
 .linkosu:active {
   border-bottom: 4px solid #a15376;
 }
+
 .linkra {
+  position: relative;
+  overflow: hidden;
   background-image: url("/img/svg/device-gamepad-3.svg");
   background-repeat: no-repeat;
   background-position: 10%;
   background-size: 140px;
+}
+
+.linkra::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+    linear-gradient(to right, var(--contentHover), var(--contentHover));
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: -200;
 }
 
 .linkra:hover {
@@ -494,6 +526,10 @@ footer {
         #bea672 100%
       )
       border-box;
+}
+
+.linkra:active::after {
+  opacity: 1;
 }
 
 .linksteam {
