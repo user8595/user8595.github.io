@@ -6,6 +6,7 @@
   --contentHover: #27272a;
   --footerCol: #99999b;
   --navbar: #1a1a1c;
+  --hoverLink: #fab387;
 }
 
 body {
@@ -291,6 +292,8 @@ footer {
 .descPage {
   font-family: SourceSerif;
   font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 .breadcrumb {
@@ -334,14 +337,29 @@ footer {
 .downloadButton:hover {
   transition-duration: 0.2s;
   background-color: rgba(71, 71, 83, 1);
-  border: 3px solid #ccc;
+  border: 3px solid var(--hoverLink);
 }
 
 .downloadButton:active {
   background-color: #37373f;
-  border: 3px solid #aaa;
+  border: 3px solid #ca9d82;
   transform: translateY(3px);
   transition-duration: 0.2s;
+}
+
+.badgeStyle {
+  border-radius: 0px;
+  display: block;
+  margin-bottom: 24px;
+  outline: 2px solid transparent;
+}
+
+.badgeStyle:hover,
+.badgeStyle:focus,
+.badgeStyle:focus-visible {
+  outline: 2px solid var(--hoverLink);
+  outline-offset: 4px;
+  transition: outline 0.2s;
 }
 
 .missingFrame {
@@ -396,12 +414,13 @@ footer {
 }
 
 .linkStyle:focus-visible {
-  outline: 2px solid #fab387;
+  outline: 2px solid var(--hoverLink);
   transition: outline 0s;
 }
 
 .linkStyle:hover {
-  transition: border-bottom 0.2s, transform 0.2s, background-color 0.2s, outline 0s;
+  transition: border-bottom 0.2s, transform 0.2s, background-color 0.2s,
+    outline 0s;
 }
 
 .linkStyle:active {
@@ -558,7 +577,7 @@ footer {
 }
 
 .linktetrio:hover {
-  border-bottom: 4px solid #15919D;
+  border-bottom: 4px solid #15919d;
 }
 
 .linktetrio:active {
