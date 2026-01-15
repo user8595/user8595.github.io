@@ -9,6 +9,12 @@
   --hoverLink: #fab387;
 }
 
+*:focus-visible{
+  outline: 2px solid var(--hoverLink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 body {
   margin: 0;
   background-color: var(--bg-col);
@@ -200,9 +206,15 @@ footer {
 
 .about {
   font-family: "SourceSerif";
+  color: #d5d5da;
   text-align: center;
   font-size: 16px;
   margin: 16px 16px 10px 16px;
+}
+
+.about:hover {
+  color: white;
+  transition-duration: 0.2s;
 }
 
 .list {
