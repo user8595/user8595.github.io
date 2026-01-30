@@ -9,7 +9,7 @@
   --hoverLink: #fab387;
 }
 
-*:focus-visible{
+*:focus-visible {
   outline: 2px solid var(--hoverLink);
   outline-offset: 2px;
   border-radius: 2px;
@@ -118,6 +118,7 @@ footer {
 }
 
 .socialNav {
+  display: flex;
   margin-top: 6px;
   margin-left: auto;
   margin-right: 3.4%;
@@ -187,7 +188,6 @@ footer {
   color: #aaaab2;
 }
 
-.icon-tabler-brand-x,
 .icon-tabler-brand-bluesky {
   margin-right: 4px;
 }
@@ -202,6 +202,23 @@ footer {
 
 .icon-tabler-dots {
   margin-left: -2.4px;
+}
+
+.twtIcon {
+  background-image: url("/img/svg/brand-x.svg");
+  background-repeat: no-repeat;
+  background-size: 32px;
+  width: 32px;
+  margin-right: 4px;
+  transition: background-image 0.2s;
+}
+
+.twtIcon:hover {
+  background-image: url("/img/svg/twitter.svg");
+}
+
+.twtIcon:active {
+  filter: brightness(0.7);
 }
 
 .about {
@@ -430,7 +447,10 @@ footer {
 }
 
 .linkStyle:hover {
-  transition: border-bottom 0.2s, transform 0.2s, background-color 0.2s,
+  transition:
+    border-bottom 0.2s,
+    transform 0.2s,
+    background-color 0.2s,
     outline 0s;
 }
 
@@ -532,7 +552,8 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+  background:
+    no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(to right, var(--contentHover), var(--contentHover));
   opacity: 0;
   transition: opacity 0.2s;
@@ -540,7 +561,8 @@ footer {
 }
 
 .linkra:hover {
-  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+  background:
+    no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(var(--content), var(--content)) padding-box,
     linear-gradient(
         to right,
@@ -555,7 +577,8 @@ footer {
 }
 
 .linkra:active {
-  background: no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
+  background:
+    no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(var(--content), var(--content)) padding-box,
     linear-gradient(
         to right,
