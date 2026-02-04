@@ -531,6 +531,21 @@ footer {
   border-bottom: 4px solid #0d5670;
 }
 
+.linkReddit {
+  background-image: url("/img/svg/reddit.svg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
+}
+
+.linkReddit:hover {
+  border-bottom: 4px solid #ff4500;
+}
+
+.linkReddit:active {
+  border-bottom: 4px solid #b12f00;
+}
+
 /* game links */
 .linkosu {
   background-image: url("/img/svg/osu.svg");
