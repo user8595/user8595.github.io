@@ -465,6 +465,9 @@ footer {
   border-bottom: 4px solid var(--content);
   outline: 2px solid transparent;
   outline-offset: 4px;
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 140px;
 }
 
 .linkStyle:focus-visible {
@@ -488,9 +491,6 @@ footer {
 /* other acc links */
 .linkPinterest {
   background-image: url("/img/svg/brand-pinterest.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkPinterest:hover {
@@ -503,9 +503,6 @@ footer {
 
 .linkTumblr {
   background-image: url("/img/svg/brand-tumblr.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkTumblr:hover {
@@ -518,9 +515,6 @@ footer {
 
 .linkSketchfab {
   background-image: url("/img/svg/cube.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkSketchfab:hover {
@@ -533,9 +527,6 @@ footer {
 
 .linkReddit {
   background-image: url("/img/svg/reddit.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkReddit:hover {
@@ -546,12 +537,21 @@ footer {
   border-bottom: 4px solid #b12f00;
 }
 
+.linkGitea {
+  background-image: url("/img/svg/gitea.svg");
+}
+
+.linkGitea:hover {
+  border-bottom: 4px solid #609926;
+}
+
+.linkGitea:active {
+  border-bottom: 4px solid #335313;
+}
+
 /* game links */
 .linkosu {
   background-image: url("/img/svg/osu.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkosu:hover {
@@ -564,9 +564,6 @@ footer {
 
 .linketterna {
   background-image: url("/img/svg/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linketterna:hover {
@@ -581,9 +578,6 @@ footer {
   position: relative;
   overflow: hidden;
   background-image: url("/img/svg/device-gamepad-3.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linkra::after {
@@ -638,9 +632,6 @@ footer {
 
 .linksteam {
   background-image: url("/img/svg/brand-steam.svg");
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 140px;
 }
 
 .linksteam:hover {
