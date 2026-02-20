@@ -235,15 +235,15 @@ footer {
   opacity: 0;
 }
 
-.twtIcon:active {
+.twtIcon:hover {
   filter: brightness(0.7);
 }
 
-.twtIcon:active::after {
+.twtIcon:hover::after {
   opacity: 1;
 }
 
-.twtIcon:active::before {
+.twtIcon:hover::before {
   opacity: 0;
 }
 
