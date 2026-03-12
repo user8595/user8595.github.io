@@ -1,5 +1,5 @@
 {
-  "htmlWhitespaceSensitivity": "ignore",
-	"bracketSpacing": true,
-	"semi": true
+    "htmlWhitespaceSensitivity": "ignore",
+    "bracketSpacing": true,
+    "semi": true
 }
