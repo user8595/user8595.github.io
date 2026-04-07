@@ -235,7 +235,7 @@ footer {
   opacity: 0;
 }
 
-.twtIcon:hover {
+.twtIcon:active {
   filter: brightness(0.7);
 }
 
