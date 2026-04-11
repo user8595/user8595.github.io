@@ -563,10 +563,10 @@ footer {
 
 .linkDiscord::after {
   content: "eightyfivenine_istaken";
-  background: no-repeat url("/img/svg/copy.svg");
+  background: no-repeat url("/img/svg/copy.svg") center left;
   padding-left: 19px;
   margin-left: auto;
-  margin-top: 4px;
+  line-height: 20px;
   font-size: 14px;
   color: rgb(184, 184, 184);
 }
