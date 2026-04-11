@@ -1,0 +1,26 @@
+/* "i hit the clip" */
+.clipDial {
+    position: fixed;
+    font-family: "W95FA";
+    font-size: 18px;
+    z-index: 9900;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    opacity: 0;
+    text-align: center;
+    width: 180px;
+    height: 20px;
+    border-radius: 24px;
+    background-color: #1a1a1c;
+    color: white;
+    padding: 8px;
+    transition: 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+
+.clipDial::after {
+    background: no-repeat url("/img/svg/copy.svg") center left;
+    padding-left: 24px;
+    content: "copied to clipboard!";
+}

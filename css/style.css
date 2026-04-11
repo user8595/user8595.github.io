@@ -454,6 +454,10 @@ footer {
 
 .linkStyle {
   display: flex;
+  font-family: "W95FA";
+  font-size: inherit;
+  border: none;
+  color: white;
   margin-top: -28px;
   margin-bottom: 48px;
   align-items: center;
@@ -486,6 +490,10 @@ footer {
 .linkStyle:active {
   background-color: var(--contentHover);
   transform: translateY(3px);
+}
+
+.linkButton {
+  width: 100%;
 }
 
 /* other acc links */
@@ -549,6 +557,28 @@ footer {
   border-bottom: 4px solid #335313;
 }
 
+.linkDiscord {
+  background-image: url("/img/svg/discord.svg");
+}
+
+.linkDiscord::after {
+  content: "eightyfivenine_istaken";
+  background: no-repeat url("/img/svg/copy.svg");
+  padding-left: 19px;
+  margin-left: auto;
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+
+.linkDiscord:hover {
+  border-bottom: 4px solid #5865F2;
+}
+
+.linkDiscord:active {
+  border-bottom: 4px solid #363e91;
+}
+
 /* game links */
 .linkosu {
   background-image: url("/img/svg/osu.svg");
@@ -599,15 +629,12 @@ footer {
   background:
     no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(var(--content), var(--content)) padding-box,
-    linear-gradient(
-        to right,
-        #89b4fa 0%,
-        #89b4fa 15%,
-        #c28ef1 50%,
-        #f9e2af 75%,
-        #f9e2af
-      )
-      border-box;
+    linear-gradient(to right,
+      #89b4fa 0%,
+      #89b4fa 15%,
+      #c28ef1 50%,
+      #f9e2af 75%,
+      #f9e2af) border-box;
   border-bottom: 4px solid transparent;
 }
 
@@ -615,15 +642,12 @@ footer {
   background:
     no-repeat 10% url("/img/svg/device-gamepad-3.svg"),
     linear-gradient(var(--content), var(--content)) padding-box,
-    linear-gradient(
-        to right,
-        #4970af 0%,
-        #4970af 15%,
-        #946db9 50%,
-        #bea672 75%,
-        #bea672 100%
-      )
-      border-box;
+    linear-gradient(to right,
+      #4970af 0%,
+      #4970af 15%,
+      #946db9 50%,
+      #bea672 75%,
+      #bea672 100%) border-box;
 }
 
 .linkra:active::after {
@@ -653,7 +677,10 @@ footer {
 .gamelogo {
   margin-right: 8px;
 }
+
 /* end of other acc links */
+
+
 
 .hrCust {
   background-color: var(--content);
@@ -679,6 +706,17 @@ lite-youtube {
   text-decoration: none;
   padding: 12px;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 330px) {
+  .headerPage {
+    display: none;
+  }
+  .linkDiscord::after {
+    content: ".";
+    margin-right: -4px;
+    color: #00000000;
+  }
 }
 
 @media screen and (min-width: 480px) {
