@@ -18,7 +18,7 @@ function clipFallback(str) {
             "[FALLBACK] copied to clipboard (" + isCopied ? "true" : "false" + ")",
         );
     } catch (err) {
-        console.error("[ERROR] unable to copy to clipboard (" + err + ")");
+        console.error("[FALLBACK/ERROR] unable to copy to clipboard (" + err + ")");
     }
 
     document.body.removeChild(textToCopy);
