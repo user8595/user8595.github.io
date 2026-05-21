@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 isClicked = false;
             }, 2000);
         } else {
-            console.log("element is active");
+            console.log("[ANIM.] element is active");
         }
     });
 });

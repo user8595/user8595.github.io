@@ -39,6 +39,11 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+a:active {
+  transition-duration: 0.2s;
+  color: #ccc
+}
+
 img {
   border-radius: 10px;
   max-width: 100%;
@@ -497,6 +502,26 @@ footer {
 }
 
 /* other acc links */
+.linkYT2 {
+  background-image: url("/img/svg/youtube.svg");
+}
+
+.linkYT2:hover {
+  border-bottom: 4px solid #ff1a47;
+}
+
+.linkYT2:active {
+  border-bottom: 4px solid #880821;
+}
+
+.linkYT2::after {
+  content: " \25B6\00A0\00A0 eightyfivesix";
+  margin-left: auto;
+  line-height: 20px;
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+
 .linkPinterest {
   background-image: url("/img/svg/brand-pinterest.svg");
 }
@@ -712,6 +737,7 @@ lite-youtube {
   .headerPage {
     display: none;
   }
+
   .linkDiscord::after {
     content: ".";
     margin-right: -4px;
