@@ -7,6 +7,9 @@
   --footerCol: #99999b;
   --navbar: #1a1a1c;
   --hoverLink: #fab387;
+  --profileBorder: #5f4b33;
+  --profileBorderHover: #e6a95f;
+  --profileBorderHovPg: #da9f58;
 }
 
 *:focus-visible {
@@ -93,12 +96,12 @@ footer {
   margin-top: -64px;
   border-radius: 10px;
   width: 120px;
-  outline: 3.5px solid #496968;
+  outline: 3.5px solid var(--profileBorder);
 }
 
 .profile:hover {
   transition-duration: 0.2s;
-  outline: 3.5px solid #71bbb5;
+  outline: 3.5px solid var(--profileBorderHover);
 }
 
 .navbar {
@@ -139,12 +142,12 @@ footer {
 
 .profilePage:hover {
   transition-duration: 0.2s;
-  outline: 3.5px solid #648a88;
+  outline: 3.5px solid var(--profileBorderHovPg);
 }
 
 .profilePage:active {
   transition-duration: 0.2s;
-  outline: 3.5px solid #496968;
+  outline: 3.5px solid var(--profileBorder);
 }
 
 .pfpMargin {
@@ -278,8 +281,9 @@ footer {
   font-size: 14px;
   background-color: var(--content);
   border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 5px 5px 0px 0px rgba(71, 71, 83, 0.7);
   padding: 16px;
-  margin-bottom: 8px;
 }
 
 .content:hover {
@@ -291,6 +295,8 @@ footer {
   background-color: var(--contentHover);
   transform: translateY(3px);
   transition-duration: 0.2s;
+  box-shadow: 4px 4px 0px 0px rgba(71, 71, 83, 0.4);
+
 }
 
 .contentLink {
@@ -390,13 +396,15 @@ footer {
   padding: 12px 0px 12px 0px;
   box-sizing: border-box;
   border-radius: 6px;
-  border: 3px solid var(--bg-col);
+  border: 3px solid rgba(0, 0, 0, 0);
+  box-shadow: 4px 4px 0px 0px rgba(71, 71, 83, 1);
   margin-bottom: 16px;
 }
 
 .downloadButton:hover {
   transition-duration: 0.2s;
   background-color: rgba(71, 71, 83, 1);
+  box-shadow: 4px 4px 0px 0px #4e443d;
   border: 3px solid var(--hoverLink);
 }
 
@@ -474,6 +482,7 @@ footer {
   border-bottom: 4px solid var(--content);
   outline: 2px solid transparent;
   outline-offset: 4px;
+  box-shadow: 3px 3px 0px 0px rgba(71, 71, 83, 0.35);
   background-repeat: no-repeat;
   background-position: 10%;
   background-size: 140px;
@@ -490,6 +499,7 @@ footer {
     transform 0.2s,
     background-color 0.2s,
     outline 0s;
+  box-shadow: 3px 3px 0px 0px rgba(71, 71, 83, 0.25);
 }
 
 .linkStyle:active {
@@ -709,11 +719,12 @@ footer {
 
 .hrCust {
   background-color: var(--content);
-  padding: 2px;
+  padding: 2.25px;
   margin-top: 0px;
   margin-bottom: 48px;
   margin-inline: auto;
   width: 88.5%;
+  border-radius: 24px;
   border: none;
 }
 
@@ -780,7 +791,6 @@ lite-youtube {
 
   .content {
     margin-inline: auto;
-    margin-bottom: 12px;
     font-size: 14px;
   }
 
