@@ -7,9 +7,9 @@
   --footerCol: #99999b;
   --navbar: #1a1a1c;
   --hoverLink: #fab387;
-  --profileBorder: #8d5919;
-  --profileBorderHover: #e6a95f;
-  --profileBorderHovPg: #da9f58;
+  --profileBorder: #c99555;
+  --profileBorderHover: #eeb774;
+  --profileBorderHovPg: #e4ab66;
 }
 
 *:focus-visible {
