@@ -205,11 +205,14 @@ footer {
 }
 
 .icon-tabler-device-gamepad-3 {
-  margin-left: -3px;
+  margin-right: -2px;
+  margin-bottom: -3px;
+  text-decoration: none;
 }
 
 .icon-tabler-dots {
-  margin-left: -2.4px;
+  margin-bottom: -2px;
+  margin-right: -1px;
 }
 
 .twtIcon {
@@ -253,6 +256,22 @@ footer {
 
 .twtIcon:hover::before {
   opacity: 0;
+}
+
+/* other links frame, homepage exclusive */
+.otherlink-frameico {
+  position:relative;
+  top: -5px;
+  background-color: #00000050;
+  transition-duration: 0.2s;
+  border-radius: 16px;
+  padding: 6px;
+  color: transparent;
+}
+
+.otherlink-frameico:hover {
+  /* oh my guh */
+  background-color: #00000067;
 }
 
 .about {
